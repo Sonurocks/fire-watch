@@ -1,13 +1,103 @@
 @import "tailwindcss";
 
+/* Helvetica Neue */
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/fonts/HelveticaNeue-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+/* Host Grotesk */
+@font-face {
+  font-family: "Host Grotesk";
+  src: url("/fonts/HostGrotesk-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Host Grotesk";
+  src: url("/fonts/HostGrotesk-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Host Grotesk";
+  src: url("/fonts/HostGrotesk-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Host Grotesk";
+  src: url("/fonts/HostGrotesk-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0B192C; /* Dark Navy for text */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: #BD0000;
+  --color-primary-hover: #A00000;
+  --color-secondary: #0B192C;
+  --color-secondary-hover: #08121f;
+  --color-accent: #F1F5F9;
+  
+  /* Navbar Colors */
+  --color-nav-bg: #F5F5F5;
+  --color-nav-text: #333333;
+  --color-search-bg: transparent; /* Updated based on Figma */
+  --color-search-border: #BFBFBF;
+
+  /* Hero Colors */
+  --color-hero-bg: #4A4A4A;
+
+  /* Custom Branding Colors */
+  --color-brand-dark: #0A1B30;
+  --color-text-dark: #111111;
+  --color-section-bg: #F8F8F8;
+  --color-cta-bg: #142A45;
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -20,7 +110,9 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
 }
+
+
