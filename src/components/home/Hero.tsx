@@ -7,8 +7,10 @@ export default function Hero() {
       bgImage={HOME_ASSETS.HERO_BG}
       title={
         <>
-          Your Safety Is<br />
-          Our Commitment<br />
+          Your Safety Is
+          <br />
+          Our Commitment
+          <br />
           to Protection
         </>
       }

@@ -5,9 +5,14 @@ interface SectionLabelProps {
   className?: string;
 }
 
-export default function SectionLabel({ children, className = "" }: SectionLabelProps) {
+export default function SectionLabel({
+  children,
+  className = "",
+}: SectionLabelProps) {
   return (
-    <span className={`text-primary font-bold text-sm tracking-wider uppercase ${className}`}>
+    <span
+      className={`text-primary font-bold text-sm tracking-wider uppercase ${className}`}
+    >
       {children}
     </span>
   );

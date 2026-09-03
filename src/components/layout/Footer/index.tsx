@@ -10,10 +10,8 @@ import {
 export default function Footer() {
   return (
     <footer className="w-full flex flex-col font-['Helvetica_Neue']">
-      {/* Main Footer Content */}
       <div className="bg-primary w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-16 lg:py-[80px] lg:h-[670px]">
         <div className="w-full ">
-          {/* Top Logo */}
           <div className="mb-12">
             <Image
               src={FOOTER_ASSETS.LOGO}
@@ -24,9 +22,7 @@ export default function Footer() {
             />
           </div>
 
-          {/* Grid Layout */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-14 gap-y-12 lg:gap-0">
-            {/* Column 1: Contact Us */}
             <div className="flex flex-col lg:col-span-3 lg:border-r lg:border-white/20 lg:pr-5">
               <h4 className="text-white text-[20px] font-medium leading-[1.48] tracking-[-0.01em] uppercase mb-8">
                 CONTACT US
@@ -43,7 +39,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Column 2: Certifications & Protection */}
             <div className="flex flex-col lg:col-span-5 lg:border-r lg:border-white/20 lg:px-10">
               <h4 className="text-white text-[20px] font-medium leading-[1.48] tracking-[-0.01em] uppercase mb-8">
                 OUR CERTIFICATIONS
@@ -82,10 +77,9 @@ export default function Footer() {
               </p>
             </div>
 
-            {/* Column 3: Explore Fire Watch */}
             <div className="flex flex-col lg:col-span-3 lg:border-r lg:border-white/20 lg:px-10">
               <h4 className="text-white text-[20px] font-medium leading-[1.48] tracking-[-0.01em] uppercase mb-6">
-                EXPLORE FIRE <br/> WATCH
+                EXPLORE FIRE <br /> WATCH
               </h4>
               <ul className="flex flex-col gap-2">
                 {EXPLORE_LINKS.map((link) => (
@@ -101,7 +95,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Column 4: Follow Us */}
             <div className="flex flex-col lg:col-span-3 lg:pl-10">
               <h4 className="text-white text-[20px] font-medium leading-[1.48] tracking-[-0.01em] uppercase mb-8">
                 FOLLOW US
@@ -122,7 +115,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom Copyright Bar */}
       <div className="bg-cta-bg w-full h-[70px] flex justify-center px-5 md:px-[40px] lg:px-[56px] items-center">
         <div className="w-full max-w-[1440px] flex flex-col sm:flex-row items-center justify-start gap-4">
           <p className="text-[#E9E9E9] text-[16px] font-normal leading-[44px] tracking-[0.02em] text-center sm:text-left">

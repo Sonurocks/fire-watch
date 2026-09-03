@@ -1,8 +1,5 @@
 import { HOME_ASSETS } from "@/assets";
 
-// ----------------------------------------
-// Product Range Data
-// ----------------------------------------
 export type ProductItem = {
   id: string;
   title: string;
@@ -42,9 +39,6 @@ export const PRODUCTS: ProductItem[] = [
   },
 ];
 
-// ----------------------------------------
-// Latest News Data
-// ----------------------------------------
 export type NewsItem = {
   id: string;
   title: string;
@@ -90,9 +84,6 @@ export const NEWS_ITEMS: NewsItem[] = [
   },
 ];
 
-// ----------------------------------------
-// Vision / Values Data
-// ----------------------------------------
 export type VisionItem = {
   id: string;
   label: string;

@@ -9,17 +9,17 @@ export default function ProductRange() {
   return (
     <section className="bg-section-bg w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-15 lg:py-[80px]">
       <div className="w-full">
-        {/* Top Header Section */}
         <div className="flex flex-col gap-6 mb-12 lg:mb-16">
           <div className="max-w-[580px]">
             <SectionLabel>Our Product Range</SectionLabel>
             <h2 className="mt-4 text-4xl md:text-[48px] font-medium text-text-dark leading-[1.16] tracking-[-0.01em]">
-              Advanced Fire <br className="hidden md:block" /> Protection Systems
+              Advanced Fire <br className="hidden md:block" /> Protection
+              Systems
             </h2>
             <p className="mt-6 text-base md:text-lg text-gray-500 leading-[1.5]">
-              Explore reliable fire detection and protection solutions engineered to
-              meet the demands of modern buildings, facilities, and critical
-              environments.
+              Explore reliable fire detection and protection solutions
+              engineered to meet the demands of modern buildings, facilities,
+              and critical environments.
             </p>
             <div className="mt-8">
               <Button href="/products">Explore All Products</Button>
@@ -27,13 +27,14 @@ export default function ProductRange() {
           </div>
         </div>
 
-        {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4">
           {PRODUCTS.map((product) => (
             <div
               key={product.id}
               className={`flex flex-col h-full min-h-[564px] rounded-[12px] p-6 lg:p-[40px] transition-shadow ${
-                product.isDark ? "bg-brand-dark hover:shadow-lg" : "bg-transparent"
+                product.isDark
+                  ? "bg-brand-dark hover:shadow-lg"
+                  : "bg-transparent"
               }`}
             >
               <div

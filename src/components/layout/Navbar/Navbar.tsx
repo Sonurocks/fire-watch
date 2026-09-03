@@ -12,14 +12,15 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Prevent body scroll when mobile menu is open
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = 'unset';
+      document.body.style.overflow = "unset";
     }
-    return () => { document.body.style.overflow = 'unset'; };
+    return () => {
+      document.body.style.overflow = "unset";
+    };
   }, [isOpen]);
 
   return (
@@ -37,7 +38,6 @@ export default function Navbar() {
             />
           </Link>
 
-          {/* Desktop Nav */}
           <div className="hidden lg:flex items-center justify-center flex-1 gap-5 xl:gap-9 px-4">
             {NAV_LINKS.map((link) => (
               <Link
@@ -46,7 +46,7 @@ export default function Navbar() {
                 className={
                   link.isActive
                     ? "text-primary font-bold text-[16px] leading-none tracking-[-0.01em] underline decoration-2 underline-offset-4 whitespace-nowrap"
-                  : "text-nav-text hover:text-primary transition-colors font-bold text-[16px] leading-none tracking-[-0.01em] hover:underline hover:decoration-2 hover:underline-offset-4 whitespace-nowrap"
+                    : "text-nav-text hover:text-primary transition-colors font-bold text-[16px] leading-none tracking-[-0.01em] hover:underline hover:decoration-2 hover:underline-offset-4 whitespace-nowrap"
                 }
               >
                 {link.label}
@@ -58,7 +58,6 @@ export default function Navbar() {
             <SearchInput />
           </div>
 
-          {/* Mobile Toggle */}
           <div className="lg:hidden flex items-center pr-2">
             <button
               onClick={() => setIsOpen(true)}
@@ -71,11 +70,9 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Drawer */}
       <AnimatePresence>
         {isOpen && (
           <>
-            {/* Backdrop */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -84,7 +81,6 @@ export default function Navbar() {
               className="fixed inset-0 bg-black/60 z-50 lg:hidden backdrop-blur-sm"
             />
 
-            {/* Sidebar */}
             <motion.div
               initial={{ x: "100%" }}
               animate={{ x: 0 }}
@@ -93,7 +89,11 @@ export default function Navbar() {
               className="fixed top-0 right-0 bottom-0 w-[300px] max-w-[85vw] bg-white z-50 shadow-2xl p-6 lg:hidden flex flex-col"
             >
               <div className="flex justify-between items-center mb-8">
-                <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center">
+                <Link
+                  href="/"
+                  onClick={() => setIsOpen(false)}
+                  className="flex items-center"
+                >
                   <Image
                     src={NAVBAR_ASSETS.LOGO}
                     alt="Fire Watch Logo"

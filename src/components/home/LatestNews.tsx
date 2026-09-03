@@ -7,7 +7,6 @@ export default function LatestNews() {
   return (
     <section className="bg-white w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-20 lg:py-[80px]">
       <div className="w-full">
-        {/* Header Section */}
         <div className="flex flex-col items-center text-center mb-12 lg:mb-[64px]">
           <h2 className="text-4xl md:text-[44px] font-semibold text-text-dark leading-[1.26] tracking-[-0.01em]">
             Latest From Fire Watch
@@ -18,7 +17,6 @@ export default function LatestNews() {
           </p>
         </div>
 
-        {/* News Grid */}
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
           {NEWS_ITEMS.map((item) => (
             <div
@@ -27,7 +25,6 @@ export default function LatestNews() {
                 item.isHighlighted ? "bg-primary" : "bg-section-bg"
               }`}
             >
-              {/* Image Container */}
               <div className="relative w-full sm:w-[248px] h-[200px] sm:h-full flex-shrink-0 rounded-[12px] overflow-hidden mb-5 sm:mb-0 sm:mr-6">
                 <Image
                   src={item.image}
@@ -38,7 +35,6 @@ export default function LatestNews() {
                 />
               </div>
 
-              {/* Content Container */}
               <div className="flex flex-col justify-center flex-grow py-2">
                 <h3
                   className={`text-[22px] font-bold mb-3 leading-[1.3] ${

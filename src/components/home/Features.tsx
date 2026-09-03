@@ -17,7 +17,6 @@ export default function Features() {
     <section className="bg-white w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-15 lg:py-[80px]">
       <div className="w-full ">
         <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-8 xl:gap-[75px]">
-          {/* Left: Image */}
           <div className="w-full lg:w-[45%] xl:w-[560px] flex-shrink-0">
             <div className="relative w-full aspect-[560/533] rounded-[12px] overflow-hidden shadow-sm">
               <Image
@@ -30,7 +29,6 @@ export default function Features() {
             </div>
           </div>
 
-          {/* Right: Content */}
           <div className="flex-1 w-full pt-4 lg:pt-6">
             <SectionLabel>WHAT WE DO</SectionLabel>
 

@@ -5,11 +5,12 @@ export default function VisionValues() {
   return (
     <section className="bg-section-bg w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-10">
       <div className="w-full">
-        {/* Values Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-4">
           {VISION_ITEMS.map((item) => (
-            <div key={item.id} className="flex flex-col h-full w-full max-w-[490px] mx-auto md:mx-0">
-              {/* Image Container */}
+            <div
+              key={item.id}
+              className="flex flex-col h-full w-full max-w-[490px] mx-auto md:mx-0"
+            >
               <div className="relative w-full h-[250px] sm:h-[368px] rounded-[20px] overflow-hidden mb-6 sm:mb-8">
                 <Image
                   src={item.image}
@@ -20,7 +21,6 @@ export default function VisionValues() {
                 />
               </div>
 
-              {/* Content Container */}
               <div className="flex flex-col gap-3">
                 <span className="text-[15px] font-medium text-gray-500">
                   {item.label}
