@@ -31,7 +31,7 @@ export default function Footer() {
                 {CONTACT_INFO.map((info) => (
                   <li key={info.id} className="flex items-start gap-4">
                     <info.icon className="text-white text-xl flex-shrink-0 mt-1" />
-                    <span className="text-[#E9E9E9]/80 text-[16px] font-normal leading-[1.48] whitespace-pre-line">
+                    <span className="text-text-light/80 text-[16px] font-normal leading-[1.48] whitespace-pre-line">
                       {info.text}
                     </span>
                   </li>
@@ -70,7 +70,7 @@ export default function Footer() {
               <h4 className="text-white text-[20px] font-medium leading-[1.48] tracking-[-0.01em] uppercase mb-4">
                 RELIABLE FIRE PROTECTION
               </h4>
-              <p className="text-[#E9E9E9]/80 text-[16px] font-normal leading-[1.48]">
+              <p className="text-text-light/80 text-[16px] font-normal leading-[1.48]">
                 Fire watch is a Progressive and Reliable company that offers
                 superior fire detection and suppression systems with excellent
                 local support.
@@ -86,7 +86,7 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-[#FFFFFF]/80 text-[16px] font-medium leading-none tracking-[-0.01em] hover:text-white/80 transition-colors"
+                      className="text-white/80 text-[16px] font-medium leading-none tracking-[-0.01em] hover:text-white/100 transition-colors"
                     >
                       {link.label}
                     </Link>
@@ -117,7 +117,7 @@ export default function Footer() {
 
       <div className="bg-cta-bg w-full h-[70px] flex justify-center px-5 md:px-[40px] lg:px-[56px] items-center">
         <div className="w-full max-w-[1440px] flex flex-col sm:flex-row items-center justify-start gap-4">
-          <p className="text-[#E9E9E9] text-[16px] font-normal leading-[44px] tracking-[0.02em] text-center sm:text-left">
+          <p className="text-text-light text-[16px] font-normal leading-[44px] tracking-[0.02em] text-center sm:text-left">
             © 2026 FIRE WATCH All Rights Reserved.
             <span className="hidden sm:inline mx-4">•</span>
             <Link

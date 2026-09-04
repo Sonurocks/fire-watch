@@ -11,7 +11,7 @@ export default function LatestNews() {
           <h2 className="text-4xl md:text-[44px] font-semibold text-text-dark leading-[1.26] tracking-[-0.01em]">
             Latest From Fire Watch
           </h2>
-          <p className="mt-6 text-base md:text-[20px] font-medium text-[#222222] leading-[1.82] tracking-[-0.01em] max-w-[716px]">
+          <p className="mt-6 text-base md:text-[20px] font-medium text-text-secondary leading-[1.82] tracking-[-0.01em] max-w-[716px]">
             Stay informed with the latest news, insights, product updates, and
             developments from Fire Watch.
           </p>

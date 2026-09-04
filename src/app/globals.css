@@ -4,66 +4,77 @@
   font-family: "Helvetica Neue";
   src: url("/fonts/HelveticaNeue-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Helvetica Neue";
   src: url("/fonts/HelveticaNeue-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Helvetica Neue";
   src: url("/fonts/HelveticaNeue-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Host Grotesk";
   src: url("/fonts/HostGrotesk-Regular.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Host Grotesk";
   src: url("/fonts/HostGrotesk-Medium.ttf") format("truetype");
   font-weight: 500;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Host Grotesk";
   src: url("/fonts/HostGrotesk-SemiBold.ttf") format("truetype");
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Host Grotesk";
   src: url("/fonts/HostGrotesk-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-display: swap;
 }
 
 :root {
@@ -89,6 +100,9 @@
 
   --color-brand-dark: #0a1b30;
   --color-text-dark: #111111;
+  --color-text-secondary: #222222;
+  --color-text-muted: #757575;
+  --color-text-light: #e9e9e9;
   --color-section-bg: #f8f8f8;
   --color-cta-bg: #142a45;
 

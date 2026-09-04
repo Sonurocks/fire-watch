@@ -37,7 +37,7 @@ export default function Features() {
               <br className="hidden xl:block" /> Detection Solutions
             </h2>
 
-            <p className="mt-6 font-['Host_Grotesk'] text-[#757575] text-[20px] font-normal leading-[1.48] tracking-[-0.01em] max-w-[634px]">
+            <p className="mt-6 font-['Host_Grotesk'] text-text-muted text-[20px] font-normal leading-[1.48] tracking-[-0.01em] max-w-[634px]">
               We provide reliable fire detection and notification solutions
               designed to protect people, property, and critical environments.
             </p>
