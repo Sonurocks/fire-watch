@@ -3,14 +3,7 @@ import { HOME_ASSETS } from "@/assets";
 import SectionLabel from "@/ui/typography/SectionLabel";
 import { BsCheckCircleFill } from "react-icons/bs";
 
-const FEATURES_LIST = [
-  "Reliable Fire Detection",
-  "Certified Safety Solutions",
-  "Expert Technical Support",
-  "Advanced Detection Technology",
-  "24/7 Fire Safety Commitment",
-  "Designed for Maximum Protection",
-];
+import { FEATURE_DATA } from "./constants";
 
 export default function Features() {
   return (
@@ -30,20 +23,18 @@ export default function Features() {
           </div>
 
           <div className="flex-1 w-full pt-4 lg:pt-6">
-            <SectionLabel>WHAT WE DO</SectionLabel>
+            <SectionLabel>{FEATURE_DATA.label}</SectionLabel>
 
             <h2 className="mt-4 text-4xl md:text-5xl lg:text-[42px] xl:text-[52px] font-bold text-gray-900 leading-[1.15] tracking-tight">
-              Comprehensive Fire
-              <br className="hidden xl:block" /> Detection Solutions
+              {FEATURE_DATA.title}
             </h2>
 
-            <p className="mt-6 font-['Host_Grotesk'] text-text-muted text-[20px] font-normal leading-[1.48] tracking-[-0.01em] max-w-[634px]">
-              We provide reliable fire detection and notification solutions
-              designed to protect people, property, and critical environments.
+            <p className="mt-6 font-host text-text-muted text-[20px] font-normal leading-[1.48] tracking-[-0.01em] max-w-[634px]">
+              {FEATURE_DATA.description}
             </p>
 
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-4">
-              {FEATURES_LIST.map((feature, idx) => (
+              {FEATURE_DATA.list.map((feature, idx) => (
                 <div key={idx} className="flex items-center gap-[8px]">
                   <BsCheckCircleFill
                     className="text-primary flex-shrink-0 bg-white rounded-full"

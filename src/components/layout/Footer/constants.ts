@@ -2,12 +2,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiPhone, FiMail } from "react-icons/fi";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
-export const FOOTER_ASSETS = {
-  LOGO: "/assets/footer/logo-2 1.png",
-  CERT_LISTED: "/assets/footer/listed.png",
-  CERT_APPROVED: "/assets/footer/approved.png",
-  CERT_NFPA: "/assets/footer/nfpa.png",
-};
+
 
 export const CONTACT_INFO = [
   {

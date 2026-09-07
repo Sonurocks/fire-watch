@@ -98,16 +98,36 @@
 
   --color-hero-bg: #4a4a4a;
 
+  --color-brand-red: #E3000F;
+  --color-brand-red-hover: #c4000d;
   --color-brand-dark: #0a1b30;
+  --color-brand-blue: #1b3554;
+  --color-brand-deep-blue: #051F41;
+
   --color-text-dark: #111111;
+  --color-black-type: #111111;
   --color-text-secondary: #222222;
   --color-text-muted: #757575;
   --color-text-light: #e9e9e9;
+  --color-text-gray-light: #dadada;
+  --color-text-gray-sub: #D7D7D7;
+
+  --color-border-gray: #bdbdbd;
+  --color-icon-circle-bg: #F6ECEC;
+  --color-bg-team-sec: #F3F3F3;
+  --color-border-light: #bdbdbd;
+
   --color-section-bg: #f8f8f8;
+  --color-bg-light: #fafafa;
+  --color-card-light: #F6F6F6;
+  --color-tooltip-bg: #cdd5df;
   --color-cta-bg: #142a45;
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-helvetica: "Helvetica Neue", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-host: "Host Grotesk", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {

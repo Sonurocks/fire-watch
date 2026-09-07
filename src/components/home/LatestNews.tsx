@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
-import { NEWS_ITEMS } from "./constants";
+import { NEWS_ITEMS, LATEST_NEWS_HEADER } from "./constants";
 
 export default function LatestNews() {
   return (
@@ -9,11 +9,10 @@ export default function LatestNews() {
       <div className="w-full">
         <div className="flex flex-col items-center text-center mb-12 lg:mb-[64px]">
           <h2 className="text-4xl md:text-[44px] font-semibold text-text-dark leading-[1.26] tracking-[-0.01em]">
-            Latest From Fire Watch
+            {LATEST_NEWS_HEADER.title}
           </h2>
           <p className="mt-6 text-base md:text-[20px] font-medium text-text-secondary leading-[1.82] tracking-[-0.01em] max-w-[716px]">
-            Stay informed with the latest news, insights, product updates, and
-            developments from Fire Watch.
+            {LATEST_NEWS_HEADER.description}
           </p>
         </div>
 
@@ -21,9 +20,7 @@ export default function LatestNews() {
           {NEWS_ITEMS.map((item) => (
             <div
               key={item.id}
-              className={`flex flex-col sm:flex-row rounded-[20px] p-5 transition-shadow hover:shadow-lg h-auto sm:h-[288px] ${
-                item.isHighlighted ? "bg-primary" : "bg-section-bg"
-              }`}
+              className="group flex flex-col sm:flex-row rounded-[20px] p-5 transition-all duration-300 hover:shadow-lg h-auto sm:h-[288px] bg-section-bg hover:bg-primary"
             >
               <div className="relative w-full sm:w-[248px] h-[200px] sm:h-full flex-shrink-0 rounded-[12px] overflow-hidden mb-5 sm:mb-0 sm:mr-6">
                 <Image
@@ -36,27 +33,15 @@ export default function LatestNews() {
               </div>
 
               <div className="flex flex-col justify-center flex-grow py-2">
-                <h3
-                  className={`text-[22px] font-bold mb-3 leading-[1.3] ${
-                    item.isHighlighted ? "text-white" : "text-text-dark"
-                  }`}
-                >
+                <h3 className="text-[22px] font-bold mb-3 leading-[1.3] text-text-dark group-hover:text-white transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p
-                  className={`text-[15px] leading-[1.6] mb-6 line-clamp-4 ${
-                    item.isHighlighted ? "text-white/90" : "text-gray-500"
-                  }`}
-                >
+                <p className="text-[15px] leading-[1.6] mb-6 line-clamp-4 text-gray-500 group-hover:text-white/90 transition-colors duration-300">
                   {item.description}
                 </p>
                 <Link
                   href={item.link}
-                  className={`mt-auto inline-flex items-center gap-2 font-semibold text-[15px] transition-colors ${
-                    item.isHighlighted
-                      ? "text-white hover:text-gray-200"
-                      : "text-primary hover:text-primary-hover"
-                  }`}
+                  className="mt-auto inline-flex items-center gap-2 font-semibold text-[15px] transition-colors duration-300 text-primary hover:text-primary-hover group-hover:text-white group-hover:hover:text-gray-200"
                 >
                   Read More <BsArrowRight className="text-lg" />
                 </Link>

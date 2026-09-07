@@ -1,15 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FOOTER_ASSETS,
-  CONTACT_INFO,
-  EXPLORE_LINKS,
-  SOCIAL_LINKS,
-} from "./constants";
+import { CONTACT_INFO, EXPLORE_LINKS, SOCIAL_LINKS } from "./constants";
+import { FOOTER_ASSETS } from "@/assets";
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col font-['Helvetica_Neue']">
+    <footer className="w-full flex flex-col font-helvetica">
       <div className="bg-primary w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-16 lg:py-[80px] lg:h-[670px]">
         <div className="w-full ">
           <div className="mb-12">
@@ -49,21 +45,21 @@ export default function Footer() {
                   alt="UL Listed"
                   width={84}
                   height={72}
-                  className="object-contain"
+                  className="object-contain w-auto h-auto"
                 />
                 <Image
                   src={FOOTER_ASSETS.CERT_APPROVED}
                   alt="FM Approved"
                   width={84}
                   height={72}
-                  className="object-contain"
+                  className="object-contain w-auto h-auto"
                 />
                 <Image
                   src={FOOTER_ASSETS.CERT_NFPA}
                   alt="NFPA"
                   width={84}
                   height={72}
-                  className="object-contain"
+                  className="object-contain w-auto h-auto"
                 />
               </div>
 

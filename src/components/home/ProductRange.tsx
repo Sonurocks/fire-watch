@@ -31,17 +31,9 @@ export default function ProductRange() {
           {PRODUCTS.map((product) => (
             <div
               key={product.id}
-              className={`flex flex-col h-full min-h-[564px] rounded-[12px] p-6 lg:p-[40px] transition-shadow ${
-                product.isDark
-                  ? "bg-brand-dark hover:shadow-lg"
-                  : "bg-transparent"
-              }`}
+              className="group flex flex-col h-full min-h-[564px] rounded-[12px] p-6 lg:p-[40px] transition-all duration-300 bg-transparent hover:bg-brand-dark hover:shadow-lg"
             >
-              <div
-                className={`text-sm font-medium mb-6 ${
-                  product.isDark ? "text-white" : "text-primary"
-                }`}
-              >
+              <div className="text-sm font-medium mb-6 text-primary group-hover:text-white transition-colors duration-300">
                 {product.id}
               </div>
 
@@ -56,27 +48,15 @@ export default function ProductRange() {
               </div>
 
               <div className="mt-auto">
-                <h3
-                  className={`text-2xl font-bold mb-4 ${
-                    product.isDark ? "text-white" : "text-gray-900"
-                  }`}
-                >
+                <h3 className="text-2xl font-bold mb-4 text-gray-900 group-hover:text-white transition-colors duration-300">
                   {product.title}
                 </h3>
-                <p
-                  className={`text-base leading-[1.6] mb-8 ${
-                    product.isDark ? "text-gray-300" : "text-gray-500"
-                  }`}
-                >
+                <p className="text-base leading-[1.6] mb-8 text-gray-500 group-hover:text-gray-300 transition-colors duration-300">
                   {product.description}
                 </p>
                 <Link
                   href={product.link}
-                  className={`inline-flex items-center gap-2 font-medium transition-colors ${
-                    product.isDark
-                      ? "text-white hover:text-gray-200"
-                      : "text-primary hover:text-primary-hover"
-                  }`}
+                  className="inline-flex items-center gap-2 font-medium transition-colors duration-300 text-primary hover:text-primary-hover group-hover:text-white group-hover:hover:text-gray-200"
                 >
                   Explore Products <BsArrowRight className="text-xl" />
                 </Link>

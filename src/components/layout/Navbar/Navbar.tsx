@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "./constants";
 import { NAVBAR_ASSETS } from "@/assets";
 import SearchInput from "@/ui/inputs/SearchInput";
@@ -11,6 +12,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     if (isOpen) {
@@ -35,23 +37,27 @@ export default function Navbar() {
               height={56}
               className="w-[150px] md:w-[194px] h-auto"
               priority
+              unoptimized
             />
           </Link>
 
           <div className="hidden lg:flex items-center justify-center flex-1 gap-5 xl:gap-9 px-4">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className={
-                  link.isActive
-                    ? "text-primary font-bold text-[16px] leading-none tracking-[-0.01em] underline decoration-2 underline-offset-4 whitespace-nowrap"
-                    : "text-nav-text hover:text-primary transition-colors font-bold text-[16px] leading-none tracking-[-0.01em] hover:underline hover:decoration-2 hover:underline-offset-4 whitespace-nowrap"
-                }
-              >
-                {link.label}
-              </Link>
-            ))}
+            {NAV_LINKS.map((link) => {
+              const isActive = pathname === link.href;
+              return (
+                <Link
+                  key={link.label}
+                  href={link.href}
+                  className={
+                    isActive
+                      ? "text-primary font-bold text-[16px] leading-none tracking-[-0.01em] underline decoration-2 underline-offset-4 whitespace-nowrap"
+                      : "text-nav-text hover:text-primary transition-colors font-bold text-[16px] leading-none tracking-[-0.01em] hover:underline hover:decoration-2 hover:underline-offset-4 whitespace-nowrap"
+                  }
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </div>
 
           <div className="hidden lg:flex items-center flex-shrink-0 pr-2">
@@ -101,6 +107,7 @@ export default function Navbar() {
                     height={43}
                     className="w-[130px] h-auto"
                     priority
+                    unoptimized
                   />
                 </Link>
                 <button
@@ -113,20 +120,23 @@ export default function Navbar() {
               </div>
 
               <div className="flex flex-col space-y-6">
-                {NAV_LINKS.map((link) => (
-                  <Link
-                    key={link.label}
-                    href={link.href}
-                    onClick={() => setIsOpen(false)}
-                    className={
-                      link.isActive
-                        ? "block text-primary font-bold text-xl leading-none tracking-[-0.01em]"
-                        : "block text-nav-text hover:text-primary transition-colors font-bold text-xl leading-none tracking-[-0.01em]"
-                    }
-                  >
-                    {link.label}
-                  </Link>
-                ))}
+                {NAV_LINKS.map((link) => {
+                  const isActive = pathname === link.href;
+                  return (
+                    <Link
+                      key={link.label}
+                      href={link.href}
+                      onClick={() => setIsOpen(false)}
+                      className={
+                        isActive
+                          ? "block text-primary font-bold text-xl leading-none tracking-[-0.01em]"
+                          : "block text-nav-text hover:text-primary transition-colors font-bold text-xl leading-none tracking-[-0.01em]"
+                      }
+                    >
+                      {link.label}
+                    </Link>
+                  );
+                })}
               </div>
             </motion.div>
           </>

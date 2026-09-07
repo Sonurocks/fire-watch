@@ -1,4 +1,74 @@
+import React from "react";
 import { HOME_ASSETS } from "@/assets";
+import {
+  HeroData,
+  FeatureData,
+  LatestNewsHeaderData,
+  QuoteData,
+  ContactCtaData,
+} from "./type";
+
+export const HERO_DATA: HeroData = {
+  title: (
+    <>
+      Your Safety Is
+      <br />
+      Our Commitment
+      <br />
+      to Protection
+    </>
+  ),
+  description:
+    "Reliable fire detection and protection solutions designed to safeguard people, property, and critical environments.",
+  buttonText: "Explore Our Solutions",
+  buttonLink: "#solutions",
+};
+
+export const FEATURE_DATA: FeatureData = {
+  label: "WHAT WE DO",
+  title: (
+    <>
+      Comprehensive Fire
+      <br className="hidden xl:block" /> Detection Solutions
+    </>
+  ),
+  description:
+    "We provide reliable fire detection and notification solutions designed to protect people, property, and critical environments.",
+  list: [
+    "Reliable Fire Detection",
+    "Certified Safety Solutions",
+    "Expert Technical Support",
+    "Advanced Detection Technology",
+    "24/7 Fire Safety Commitment",
+    "Designed for Maximum Protection",
+  ],
+};
+
+export const LATEST_NEWS_HEADER: LatestNewsHeaderData = {
+  title: "Latest From Fire Watch",
+  description:
+    "Stay informed with the latest news, insights, product updates, and developments from Fire Watch.",
+};
+
+export const QUOTE_DATA: QuoteData = {
+  quote: (
+    <>
+      &ldquo;We always support the holistic approach to our customers, enabling
+      them to establish the right Detection solutions that can meet their fire
+      risks effectively and innovatively.&rdquo;
+    </>
+  ),
+  author: "ADEL ELASSAL, GBD",
+};
+
+export const CONTACT_CTA_DATA: ContactCtaData = {
+  label: "FIRE WATCH SAFETY NETWORK",
+  title: "Get In Touch",
+  description:
+    "Have questions about our certified fire detection systems, technical support, or system installations? Contact our dedicated safety consultants today.",
+  buttonText: "Send Message",
+  buttonLink: "/contact",
+};
 
 export type ProductItem = {
   id: string;

@@ -6,7 +6,7 @@ import ContactCta from "./ContactCta";
 import QuoteSection from "./QuoteSection";
 import VisionValues from "./VisionValues";
 
-export default function HomeView() {
+export default function Home() {
   return (
     <>
       <Hero />

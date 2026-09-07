@@ -1,3 +1,3 @@
 export const NAVBAR_ASSETS = {
-  LOGO: "/assets/navbar/logo.png",
+  LOGO: "/assets/navbar/logo.svg",
 } as const;
