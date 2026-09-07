@@ -3,15 +3,17 @@ import React from "react";
 interface SectionLabelProps {
   children: React.ReactNode;
   className?: string;
+  color?: string;
 }
 
 export default function SectionLabel({
   children,
   className = "",
+  color = "text-primary",
 }: SectionLabelProps) {
   return (
     <span
-      className={`text-primary font-medium text-[14px] md:text-[14px] tracking-[-0.1px] uppercase ${className} font-helvetica`}
+      className={`${color} font-medium text-[14px] md:text-[18px] leading-[1.48] tracking-[-0.01em] uppercase ${className} font-helvetica`}
     >
       {children}
     </span>

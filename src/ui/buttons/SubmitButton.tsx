@@ -1,8 +1,7 @@
 import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 
-interface SubmitButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+interface SubmitButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children?: React.ReactNode;
   isSubmitted?: boolean;
 }

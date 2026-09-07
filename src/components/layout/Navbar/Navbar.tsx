@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="absolute top-[19px] left-0 right-0 z-40 flex justify-center w-full px-5 md:px-[40px] lg:px-[56px]">
+      <nav className="fixed top-[19px] left-0 right-0 z-40 flex justify-center w-full px-5 md:px-[40px] lg:px-[56px]">
         <div className="relative bg-nav-bg rounded-[100px] w-full h-[56px] md:h-[60px] lg:h-[72px] px-5 md:px-[28px] py-[8px] flex items-center justify-between shadow-sm">
           <Link href="/" className="flex items-center flex-shrink-0">
             <Image

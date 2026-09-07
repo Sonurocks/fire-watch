@@ -1,42 +1,21 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import Image from "next/image";
 import { CONTACT_ASSETS } from "@/assets";
 import SubmitButton from "@/ui/buttons/SubmitButton";
 
 export default function ContactFormCard() {
-  const [formData, setFormData] = useState({
-    fullName: "",
-    email: "",
-    phone: "",
-    inquiryType: "",
-    message: "",
-  });
+  const formRef = useRef<HTMLFormElement>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const formAction = async (formData: FormData) => {
     setIsSubmitted(true);
+
     setTimeout(() => {
       setIsSubmitted(false);
-      setFormData({
-        fullName: "",
-        email: "",
-        phone: "",
-        inquiryType: "",
-        message: "",
-      });
+      formRef.current?.reset();
     }, 4000);
-  };
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData((prev) => ({
-      ...prev,
-      [e.target.name]: e.target.value,
-    }));
   };
 
   return (
@@ -46,10 +25,11 @@ export default function ContactFormCard() {
           src={CONTACT_ASSETS.HERO_BG}
           alt="Contact Section Background"
           fill
-          className="object-cover object-center"
+          className="object-cover object-top"
           priority
+          unoptimized={true}
+          quality={100}
         />
-        <div className="absolute inset-0 z-[1] bg-black/40 backdrop-brightness-95" />
       </div>
 
       <div
@@ -71,7 +51,8 @@ export default function ContactFormCard() {
           </div>
 
           <form
-            onSubmit={handleSubmit}
+            ref={formRef}
+            action={formAction}
             className="flex flex-col gap-4 sm:gap-5 md:gap-[24px] w-full"
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-[24px] w-full">
@@ -82,8 +63,6 @@ export default function ContactFormCard() {
                 <input
                   type="text"
                   name="fullName"
-                  value={formData.fullName}
-                  onChange={handleChange}
                   placeholder="e.g. John Doe"
                   required
                   className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
@@ -97,8 +76,6 @@ export default function ContactFormCard() {
                 <input
                   type="email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
                   placeholder="e.g. john@company.com"
                   required
                   className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
@@ -114,8 +91,6 @@ export default function ContactFormCard() {
                 <input
                   type="tel"
                   name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
                   placeholder="e.g. +1 (559) 000-0000"
                   className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
                 />
@@ -128,8 +103,6 @@ export default function ContactFormCard() {
                 <input
                   type="text"
                   name="inquiryType"
-                  value={formData.inquiryType}
-                  onChange={handleChange}
                   placeholder="e.g. Commercial Fire Alarm"
                   className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
                 />
@@ -142,8 +115,6 @@ export default function ContactFormCard() {
               </label>
               <textarea
                 name="message"
-                value={formData.message}
-                onChange={handleChange}
                 rows={4}
                 placeholder="Tell us about your facility or technical support requirements..."
                 required
@@ -160,7 +131,7 @@ export default function ContactFormCard() {
         </div>
 
         <div
-          className="relative z-10 h-[250px] sm:h-[350px] md:h-[400px] xl:h-[630px] xl:w-[566px] flex-shrink-0 bg-transparent rounded-[15px] sm:rounded-[20px] xl:rounded-[25px] m-[12px] sm:m-[16px] md:m-[24px] xl:m-[31px] xl:ml-auto"
+          className="relative z-10 h-[250px] sm:h-[350px] md:h-[400px] xl:h-auto xl:self-stretch xl:w-[566px] flex-shrink-0 bg-transparent rounded-[15px] sm:rounded-[20px] xl:rounded-[25px] m-[12px] sm:m-[16px] md:m-[24px] xl:m-[31px] xl:ml-auto"
           style={{
             boxShadow: "0 0 0 9999px #ffffff",
           }}

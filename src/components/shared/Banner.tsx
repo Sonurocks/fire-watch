@@ -10,7 +10,7 @@ interface BannerProps {
   buttonLink?: string;
   heightClass?: string;
   mobileImageClass?: string;
-  mobileOverlayClass?: string;
+  overlayClass?: string;
 }
 
 export default function Banner({
@@ -21,7 +21,7 @@ export default function Banner({
   buttonLink,
   heightClass = "min-h-[600px] lg:min-h-0 lg:h-[840px]",
   mobileImageClass = "object-cover object-center",
-  mobileOverlayClass = "bg-black/10",
+  overlayClass = "bg-black/10 lg:hidden",
 }: BannerProps) {
   return (
     <section
@@ -36,8 +36,10 @@ export default function Banner({
             className={mobileImageClass}
             priority
             sizes="100vw"
+            quality={100}
+            unoptimized={true}
           />
-          <div className={`absolute inset-0 ${mobileOverlayClass} z-10 lg:hidden`}></div>
+          <div className={`absolute inset-0 ${overlayClass} z-10`}></div>
         </div>
       </div>
 

@@ -25,10 +25,10 @@ export const WHO_WE_ARE_DATA: WhoWeAreData = {
   title: "Protecting What Matters Through Reliable Fire Protection.",
   paragraphs: [
     <React.Fragment key="1">
-      FIRE WATCH is a <span className="text-primary">USA-based fire protection company</span> specializing in the supply, installation, and maintenance of fire detection and firefighting systems. Our trained and experienced engineers and technicians deliver reliable solutions tailored to meet diverse fire protection requirements.
+      FIRE WATCH is a <span className="text-brand-red-alt">USA-based fire protection company</span> specializing in the supply, installation, and maintenance of fire detection and firefighting systems. Our trained and experienced engineers and technicians deliver reliable solutions tailored to meet diverse fire protection requirements.
     </React.Fragment>,
     <React.Fragment key="2">
-      We have a specialized, multi-skilled technical team capable of maintaining a wide range of firefighting systems. With the infrastructure and manpower to undertake <span className="text-primary">turnkey projects</span>, we provide end-to-end solutions focused on <span className="text-primary">quality, reliability, and client satisfaction.</span>
+      We have a specialized, multi-skilled technical team capable of maintaining a wide range of firefighting systems. With the infrastructure and manpower to undertake <span className="text-brand-red-alt">turnkey projects</span>, we provide end-to-end solutions focused on <span className="text-brand-red-alt">quality, reliability, and client satisfaction.</span>
     </React.Fragment>,
   ],
 };

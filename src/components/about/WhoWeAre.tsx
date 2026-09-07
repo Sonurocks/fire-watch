@@ -5,7 +5,9 @@ export default function WhoWeAre() {
   return (
     <section className="bg-brand-blue w-full flex items-center justify-center px-5 md:px-[40px] lg:px-[56px] py-16 md:py-[100px] lg:py-[120px] lg:min-h-[736px]">
       <div className="w-full flex flex-col items-center text-center max-w-[875px]">
-        <SectionLabel>{WHO_WE_ARE_DATA.label}</SectionLabel>
+        <SectionLabel>
+          {WHO_WE_ARE_DATA.label}
+        </SectionLabel>
 
         <h2 className="mt-6 text-4xl md:text-[48px] font-medium font-helvetica text-white leading-[1.2] tracking-[-0.01em] max-w-[740px] mx-auto">
           {WHO_WE_ARE_DATA.title}

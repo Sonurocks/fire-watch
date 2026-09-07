@@ -40,7 +40,7 @@ export default function Features() {
                     className="text-primary flex-shrink-0 bg-white rounded-full"
                     size={24}
                   />
-                  <span className="text-[18px] text-gray-500 font-medium">
+                  <span className="text-[18px] text-text-muted font-medium">
                     {feature}
                   </span>
                 </div>

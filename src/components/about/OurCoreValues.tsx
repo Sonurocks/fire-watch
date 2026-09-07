@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ABOUT_ASSETS } from "@/assets";
 import { OUR_CORE_VALUES_DATA } from "./constants";
+import SectionLabel from "@/ui/typography/SectionLabel";
 
 export default function OurCoreValues() {
   const valueIcons = [
@@ -21,9 +22,9 @@ export default function OurCoreValues() {
     <section className="relative w-full bg-bg-light flex justify-center overflow-hidden">
       <div className="relative z-10 w-full mx-auto px-5 md:px-[40px] lg:px-[56px] pt-16 lg:pt-[60px] pb-16 lg:pb-[80px] lg:min-h-[850px] flex flex-col justify-between font-helvetica">
         <div className="w-full max-w-[740px] mx-auto text-center flex flex-col items-center gap-4 lg:gap-[24px]">
-          <span className="text-[13px] font-bold text-brand-red tracking-[0.15em] uppercase font-host">
+          <SectionLabel>
             {OUR_CORE_VALUES_DATA.label}
-          </span>
+          </SectionLabel>
 
           <h2 className="text-3xl sm:text-[40px] lg:text-[48px] font-medium text-text-dark leading-[1.16] tracking-[-0.01em] font-helvetica whitespace-pre-line">
             {OUR_CORE_VALUES_DATA.title}
