@@ -8,10 +8,10 @@ export default function LatestNews() {
     <section className="bg-white w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-20 lg:py-[80px]">
       <div className="w-full">
         <div className="flex flex-col items-center text-center mb-12 lg:mb-[64px]">
-          <h2 className="text-4xl md:text-[44px] font-semibold text-text-dark leading-[1.26] tracking-[-0.01em]">
+          <h2 className="text-[32px] md:text-[44px] font-semibold font-montserrat text-text-dark leading-[1.26] tracking-[-0.01em]">
             {LATEST_NEWS_HEADER.title}
           </h2>
-          <p className="mt-6 text-base md:text-[20px] font-medium text-text-secondary leading-[1.82] tracking-[-0.01em] max-w-[716px]">
+          <p className="mt-6 text-[16px] md:text-[20px] font-medium font-montserrat text-text-secondary leading-[1.82] tracking-[-0.01em] max-w-[716px]">
             {LATEST_NEWS_HEADER.description}
           </p>
         </div>
@@ -33,10 +33,10 @@ export default function LatestNews() {
               </div>
 
               <div className="flex flex-col justify-center flex-grow py-2">
-                <h3 className="text-[22px] font-bold mb-3 leading-[1.3] text-text-dark group-hover:text-white transition-colors duration-300">
+                <h3 className="text-[20px] font-bold font-helvetica mb-3 leading-[1.48] tracking-[-0.01em] text-text-dark group-hover:text-white transition-colors duration-300">
                   {item.title}
                 </h3>
-                <p className="text-[15px] leading-[1.6] mb-6 line-clamp-4 text-gray-500 group-hover:text-white/90 transition-colors duration-300">
+                <p className="text-[15px] xl:text-[16px] leading-[1.6] mb-6 line-clamp-4 text-text-muted group-hover:text-white/90 transition-colors duration-300">
                   {item.description}
                 </p>
                 <Link

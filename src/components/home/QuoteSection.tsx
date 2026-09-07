@@ -10,7 +10,7 @@ export default function QuoteSection() {
 
         <div className="w-[1px] h-[40px] bg-primary/40 my-8"></div>
 
-        <p className="text-primary font-bold text-sm tracking-wider uppercase font-helvetica">
+        <p className="text-primary font-bold text-[14px] lg:text-[16px] tracking-wider uppercase font-helvetica">
           {QUOTE_DATA.author}
         </p>
       </div>

@@ -11,7 +11,7 @@ export default function SectionLabel({
 }: SectionLabelProps) {
   return (
     <span
-      className={`text-primary font-medium text-[18px] tracking-[-0.1px] uppercase ${className} font-helvetica`}
+      className={`text-primary font-medium text-[14px] md:text-[14px] tracking-[-0.1px] uppercase ${className} font-helvetica`}
     >
       {children}
     </span>

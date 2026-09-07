@@ -25,7 +25,7 @@ export default function Features() {
           <div className="flex-1 w-full pt-4 lg:pt-6">
             <SectionLabel>{FEATURE_DATA.label}</SectionLabel>
 
-            <h2 className="mt-4 text-4xl md:text-5xl lg:text-[42px] xl:text-[52px] font-bold text-gray-900 leading-[1.15] tracking-tight">
+            <h2 className="mt-4 text-4xl md:text-5xl lg:text-[42px] xl:text-[48px] font-medium text-text-dark leading-[1.15] tracking-tight">
               {FEATURE_DATA.title}
             </h2>
 

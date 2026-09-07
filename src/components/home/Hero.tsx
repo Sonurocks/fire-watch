@@ -10,6 +10,9 @@ export default function Hero() {
       description={HERO_DATA.description}
       buttonText={HERO_DATA.buttonText}
       buttonLink={HERO_DATA.buttonLink}
+      // heightClass="min-h-[600px] "
+      mobileImageClass="object-cover object-[65%_center] lg:object-[75%_center] xl:object-center"
+      mobileOverlayClass="bg-black/30 lg:bg-black/20 xl:bg-black/0"
     />
   );
 }

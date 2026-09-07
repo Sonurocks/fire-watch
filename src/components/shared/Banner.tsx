@@ -9,6 +9,8 @@ interface BannerProps {
   buttonText?: string;
   buttonLink?: string;
   heightClass?: string;
+  mobileImageClass?: string;
+  mobileOverlayClass?: string;
 }
 
 export default function Banner({
@@ -18,6 +20,8 @@ export default function Banner({
   buttonText,
   buttonLink,
   heightClass = "min-h-[600px] lg:min-h-0 lg:h-[840px]",
+  mobileImageClass = "object-cover object-center",
+  mobileOverlayClass = "bg-black/10",
 }: BannerProps) {
   return (
     <section
@@ -29,21 +33,21 @@ export default function Banner({
             src={bgImage}
             alt="Page Background"
             fill
-            className="object-cover object-center"
+            className={mobileImageClass}
             priority
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-black/10 z-10 lg:hidden"></div>
+          <div className={`absolute inset-0 ${mobileOverlayClass} z-10 lg:hidden`}></div>
         </div>
       </div>
 
-      <div className="relative z-20 w-full flex justify-center px-4 md:px-[30px] pt-24 lg:pt-[120px]">
+      <div className="relative z-20 w-full flex justify-center px-4 md:px-[30px]">
         <div className="w-full px-5 md:px-[55px]">
           <div className="max-w-2xl">
-            <h1 className="text-4xl md:text-5xl lg:text-[64px] font-bold text-white tracking-[-0.01em] leading-[1.12]">
+            <h1 className="text-4xl md:text-5xl xl:text-[64px] font-bold text-white tracking-[-0.01em] leading-[1.12]">
               {title}
             </h1>
-            <p className="mt-6 lg:mt-8 text-base md:text-lg lg:text-[22px] text-white max-w-[580px] font-medium leading-[1.4]">
+            <p className="mt-6 lg:mt-8 text-base md:text-lg xl:text-[22px] text-white max-w-[580px] font-medium leading-[1.4]">
               {description}
             </p>
 

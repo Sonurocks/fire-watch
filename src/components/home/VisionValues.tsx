@@ -22,13 +22,13 @@ export default function VisionValues() {
               </div>
 
               <div className="flex flex-col gap-3">
-                <span className="text-[15px] font-medium text-gray-500">
+                <span className="text-[15px] font-medium text-text-muted">
                   {item.label}
                 </span>
-                <h3 className="text-2xl md:text-[24px] font-bold text-text-dark leading-[1.48] tracking-[-0.01em]">
+                <h3 className="text-[20px] md:text-[24px] font-bold text-text-dark leading-[1.48] tracking-[-0.01em]">
                   {item.title}
                 </h3>
-                <p className="text-base md:text-[16px] text-gray-500 leading-[1.6] font-medium">
+                <p className="text-[15px] md:text-[16px] lg:text-[18px] text-text-muted leading-[1.6] font-medium">
                   {item.description}
                 </p>
               </div>

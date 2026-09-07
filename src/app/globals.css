@@ -110,7 +110,9 @@
   --color-text-muted: #757575;
   --color-text-light: #e9e9e9;
   --color-text-gray-light: #dadada;
-  --color-text-gray-sub: #D7D7D7;
+  --color-text-gray-sub: #d7d7d7;
+  --color-text-gray-hover: #d4d4d4;
+  --color-text-accent-red: #632929;
 
   --color-border-gray: #bdbdbd;
   --color-icon-circle-bg: #F6ECEC;
