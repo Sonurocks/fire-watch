@@ -20,7 +20,7 @@ export const CategoryGrid = ({ categories }: { categories: Category[] }) => {
               {category.subCategories.flatMap((sc) => sc.products || []).slice(0, 3).map((product, i) => (
                 product.image && (
                   <div key={i} className="relative w-20 h-20 group-hover:scale-110 transition-transform duration-300">
-                    <Image src={product.image} alt={product.name} fill className="object-contain" unoptimized />
+                    <Image src={product.image} alt={product.name} fill quality={100} sizes="80px" className="object-contain" />
                   </div>
                 )
               ))}

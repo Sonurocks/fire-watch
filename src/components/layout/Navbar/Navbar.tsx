@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "./constants";
 import { NAVBAR_ASSETS } from "@/assets";
-import SearchInput from "@/ui/inputs/SearchInput";
+import ProductSearch from "@/components/product/ProductSearch";
 import { FiMenu, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -60,8 +60,14 @@ export default function Navbar() {
             })}
           </div>
 
-          <div className="hidden lg:flex items-center flex-shrink-0 pr-2">
-            <SearchInput />
+          <div className="hidden lg:flex items-center flex-shrink-0 pr-2 relative">
+            <ProductSearch 
+              searchInputContainerClassName="w-full lg:w-[225px] h-[40px] rounded-[40px] border border-search-border bg-[#F8F8F8] px-[16px]"
+              searchInputClassName="bg-transparent text-sm text-gray-700 focus:outline-none w-full font-medium placeholder-[#8c8c8c]"
+              dropdownClassName="absolute top-[50px] right-0 w-full lg:w-[225px] bg-white rounded-[14px] shadow-2xl border border-gray-100 overflow-hidden z-50 flex flex-col py-2 max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-gray-400"
+              placeholder="Search..."
+              hideImage={true}
+            />
           </div>
 
           <div className="lg:hidden flex items-center pr-2">

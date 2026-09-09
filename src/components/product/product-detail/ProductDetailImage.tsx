@@ -14,9 +14,9 @@ export function ProductDetailImage({ image, name }: ProductDetailImageProps) {
             src={image}
             alt={name}
             fill
+            quality={100}
             className="object-contain"
-            sizes="(max-width: 1024px) 100vw, 455px"
-            unoptimized
+            sizes="(max-width: 1024px) 100vw, 910px"
           />
         ) : (
           <div className="text-primary opacity-50 text-6xl font-host">No Image</div>

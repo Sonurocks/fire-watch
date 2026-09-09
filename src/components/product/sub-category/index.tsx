@@ -4,20 +4,17 @@ import { SubCategoryGrid } from "./SubCategoryGrid";
 import { PRODUCTS } from "@/components/home/constants";
 import { SubCategoryIndexProps } from "./types";
 import { SUBCATEGORY_UI_CONSTANTS } from "./constants";
+import { getCategoryDescription } from "@/data/categoryMeta";
+import { slugify } from "@/lib/slugify";
 
 export default function SubCategoryIndex({ category }: SubCategoryIndexProps) {
-  const categoryContent = PRODUCTS.find(
-    (p) => p.title.toLowerCase() === category.name.toLowerCase(),
-  );
+  const categorySlug = slugify(category.name);
 
   return (
     <div className="flex flex-col bg-bg-light w-full">
       <SubCategoryHero
         title={category.name}
-        description={
-          categoryContent?.description ||
-          SUBCATEGORY_UI_CONSTANTS.defaultDescription
-        }
+        description={getCategoryDescription(categorySlug)}
       />
 
       <section className="py-16 lg:py-[80px] px-5 md:px-[40px] lg:px-[56px] max-w-7xl mx-auto w-full">

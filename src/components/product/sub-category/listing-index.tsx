@@ -1,6 +1,7 @@
 import SubCategoryHero from "./SubCategoryHero";
 import { SubCategoryContent } from "./SubCategoryContent";
 import { SubCategoryPageProps } from "./types";
+import { getSubCategoryDescription } from "@/data/categoryMeta";
 
 export default function SubCategoryListingIndex({
   category,
@@ -13,7 +14,7 @@ export default function SubCategoryListingIndex({
     <main className="flex flex-col bg-bg-light w-full">
       <SubCategoryHero
         title={subCategory.name}
-        description={`Explore our range of ${category.name} — ${subCategory.name.toLowerCase()} products.`}
+        description={getSubCategoryDescription(subCategorySlug)}
       />
       <SubCategoryContent
         products={products}

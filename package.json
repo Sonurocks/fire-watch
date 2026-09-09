@@ -6,7 +6,8 @@
     "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "migrate:images": "node scripts/download-product-images.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.2.0",

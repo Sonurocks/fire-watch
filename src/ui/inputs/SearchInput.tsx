@@ -23,7 +23,7 @@ export default function SearchInput({
         className="text-c-8c8c8c hover:text-gray-600 transition-colors flex-shrink-0 ml-2"
         aria-label="Search"
       >
-        <FiSearch size={18} strokeWidth={2} />
+        <FiSearch size={24} strokeWidth={1} className="text-[#A1A1A1]" />
       </button>
     </div>
   );

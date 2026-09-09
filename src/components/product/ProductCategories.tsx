@@ -2,8 +2,9 @@
 
 import ProductCard from "@/components/shared/ProductCard";
 import SectionLabel from "@/ui/typography/SectionLabel";
-import { PRODUCT_UI_CONSTANTS } from "./constants";
 import { slugify } from "@/lib/slugify";
+import ProductSearch from "./ProductSearch";
+import { PRODUCT_UI_CONSTANTS } from "./constants";
 
 interface CategoryItem {
   id: number;
@@ -32,6 +33,10 @@ export const ProductCategories = ({ categories }: ProductCategoriesProps) => {
             to meet the demands of modern buildings, facilities, and critical
             environments.
           </p>
+
+          <ProductSearch 
+            containerClassName="my-6" 
+          />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-4">

@@ -49,7 +49,7 @@ export default function Banner({
             <h1 className="text-4xl md:text-5xl xl:text-[64px] font-bold text-white tracking-[-0.01em] leading-[1.12]">
               {title}
             </h1>
-            <p className="mt-6 lg:mt-8 text-base md:text-lg xl:text-[22px] text-white max-w-[580px] font-medium leading-[1.4]">
+            <p className="mt-6 lg:mt-8 text-base md:text-lg xl:text-[22px] text-white max-w-[880px] font-medium leading-[1.4]">
               {description}
             </p>
 

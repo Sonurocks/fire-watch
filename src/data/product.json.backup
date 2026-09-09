@@ -1,0 +1,3185 @@
+[
+  {
+    "id": 7,
+    "name": "Intelligent system",
+    "url": "https://fire-watch.co/sub-category/7-intelligent-system",
+    "image": "https://fire-watch.co/storage/images/Category/Category_82522.png",
+    "subCategories": [
+      {
+        "id": 9,
+        "name": "Control Panels",
+        "url": "https://fire-watch.co/products/9-control-panels",
+        "products": [
+          {
+            "id": 27,
+            "name": "INFINITY UL FIRE (Analogue Addressable Control Panel)",
+            "url": "https://fire-watch.co/product/27-infinity-ul-fire-analogue-addressable-control-panel",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_78346.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_78346.png",
+                "alt": "INFINITY UL FIRE (Analogue Addressable Control Panel)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "Initially configured as a fire detection and alarm system, the flexibility of Taktis is such that it can be re-configured to realise many other control and indication applications, with direct integration into intelligent buildings. Available in four and eight slot variants, INFINITY ire control panel ranges from two to 16 detection loops. INFINITY can network up to 128 panels, making it ideal for the largest sites such as schools, hospitals, multi-site retail/ supermarkets, critical infrastructure and major commercial and industrial facilities. As a truly open protocol panel it offers installers and their customers maximum flexibility in systems’ design, site-customization and in the third-party devices that they use. Not only does INFINITY provide solutions to the most technically challenging applications in life safety, it will also deliver added value, market advantage and a competitive edge to your business.",
+            "features": [
+              "UL864 (10th edition) Listed and FM Approved",
+              "2 to 8 loop or 2 to 16 loop versions",
+              "400mA loop current",
+              "4 programmable NACs; Class B or 2 Class A with internal synchronization",
+              "5.25 A or 10.25 A power supply options",
+              "3 programmable inputs and 5 programmable relay outputs",
+              "7 inch, full-color resistive touch screen with intuitive user interface",
+              "Up to 24 programmable soft “function keys”",
+              "Hard-wired ire and trouble routing inputs and outputs",
+              "Modular and expandable electronics",
+              "400 subaddress points per loop (800 per loop module)",
+              "Option to “invert” inputs and outputs",
+              "5000 programmable cause and efects; over 50,000 inputs and outputs",
+              "Can be networked with programmable functionality",
+              "Programming via USB port to PC or memory stick",
+              "Ockular graphical fire management system"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705010e0821d.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb2139f2a26.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters (All Infinity Models)",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708169c5767f.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "INFINITY is FIREWATCH s most powerful and sophisticated analogue addressable ire panel. Intelligent and technically robust, it has enhanced integration and networking capabilities to meet the current and future needs of small to larger buildings and installations."
+          },
+          {
+            "id": 29,
+            "name": "ORCA FW (Analogue 1 or 2 Loops Fire Control Panel) (FW0850-40) (FW0860-10)",
+            "url": "https://fire-watch.co/product/29-orca-fw-analogue-1-or-2-loops-fire-control-panel-fw0850-40-fw0860-10",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_58344.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_58344.png",
+                "alt": "ORCA FW (Analogue 1 or 2 Loops Fire Control Panel) (FW0850-40) (FW0860-10)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "Available with one or two detection loops capable of hosting FIREWATCH UL devices. Elite RS uses microprocessor-based electronics to provide a flexible control system with high reliability and integrity. Suitable for small to medium sized fire detection systems, ORCA FW control panels can be expanded and networked to become part of significantly larger systems if the need arises, therefore providing a future-proof solution for any installation.",
+            "features": [
+              "One full SLC circuit expandable to two",
+              "Three programmable relays",
+              "5.25A power supply",
+              "Compatible with eMatrix graphics annunciator",
+              "Powerful, network wide cause and eects (500 total). Fully user programmable by point or zone",
+              "Can be networked with additional ORCA Control panels",
+              "Compatible with eView annunciator",
+              "Programmable through a PC connection to the panel",
+              "Stores 1000 last events in history log",
+              "Two programmable NAC circuits with internal synchronization support",
+              "UL 864 listed",
+              "EN54 Approved versions also available"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704ff73791db.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670818c14624c.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463565872f3.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "ORCA RS is a versatile range of UL/FM approved open protocol fire alarm control panels."
+          },
+          {
+            "id": 30,
+            "name": "ORCA View (FW1172-10) (FW1172-40)",
+            "url": "https://fire-watch.co/product/30-orca-view-fw1172-10-fw1172-40",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_56233.jpg",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_56233.jpg",
+                "alt": "ORCA View (FW1172-10) (FW1172-40)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The large, graphic LCD and high brightness LED indicators duplicate the indications on the ORCA fire alarm control panel at up to 15 additional locations via a simple, two-wire serial data connection. Housed in a small enclosure, it is ideal for installations where a large control panel would be detrimental to decor such as entrance halls. Up to 15 ORCAVIEW annunciators can be connected to each control panel on the elite network making ORCAVIEW ideal where multiple points of indication and/or control are required, such as nurse’s stations or retail units.",
+            "features": [
+              "Available in Red or Grey",
+              "Up to 15 annunciators can be connected to each ORCA ire control panel",
+              "Large liquid crystal display (240 x 64 pixels)",
+              "High brightness LED indications",
+              "Internal sounder",
+              "Replicates all panel controls (ORCA)",
+              "Simple two-wire serial connection",
+              "Small, ORCA style enclosure",
+              "Removable electronics for easy installation",
+              "24V DC powered",
+              "Low power consumption",
+              "Multi language options",
+              "Connection supervised by ORCA ire control panel"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc462477905.pdf"
+              },
+              {
+                "title": "FW1172-10",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708191fc81b5.pdf"
+              },
+              {
+                "title": "FW1172-40",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708194045b74.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635b5bc306.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The ORCAVIEW ire alarm annunciator provides a simple and convenient method of extending the controls and indications of the ORCA fire alarm control panel to other locations."
+          },
+          {
+            "id": 31,
+            "name": "ORCA MATRIX (Analogue Fire Repeater UL/FM Approved)",
+            "url": "https://fire-watch.co/product/31-orca-matrix-analogue-fire-repeater-ulfm-approved",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_45080.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_45080.png",
+                "alt": "ORCA MATRIX (Analogue Fire Repeater UL/FM Approved)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "All indicators can be configured to operate upon any event type and at point, zone or group level via the powerful and intuitive Loop Explorer configuration program. ORCAMATRIX can be supplied with or without common LEDs and controls. Optional LED’s indicate Power on, Fire, Trouble and Disablement and optional controls are for Alarm Silence, Buzzer Silence, Lamp Test and Reset.",
+            "features": [
+              "Available in Red or Grey",
+              "Up to 504 LED’s can be controlled from any ORCA panel",
+              "Select up to 12 printed colours ( not including background and building outline)",
+              "Available in a range of standard enclosures to suit any applications.",
+              "Custom sized units can be made upon request",
+              "Choice of Red, Green or Yellow LED’s",
+              "Choice of Red, Green or Yellow LED’s ORCAMATRIX can easily be upgraded on site with minimal cost and efort",
+              "UL 864 edition listed"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc46a99d94f.pdf"
+              },
+              {
+                "title": "Model FW130X-YYY",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819d0bb0a3.pdf"
+              },
+              {
+                "title": "Model FW132X-YYY",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819e6b3f8e.pdf"
+              },
+              {
+                "title": "Model FW133X-YYY",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67081a0eba5ed.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635f7200ed.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The ORCAMATRIX system uses flexible, optic light guides to illuminate areas on a floor plan, laid over a high-resolution grid. This unique system enables indicators to be moved, removed or added on site without the need for any wiring."
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Sensors",
+        "url": "https://fire-watch.co/products/21-sensors",
+        "products": [
+          {
+            "id": 35,
+            "name": "Multi-Criteria Detectors (Smoke + Heat) (FW5050-350)",
+            "url": "https://fire-watch.co/product/35-multi-criteria-detectors-smoke-heat-fw5050-350",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_25046.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_25046.png",
+                "alt": "Multi-Criteria Detectors (Smoke + Heat) (FW5050-350)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Multi-Criteria Detector is designed to be connected to a two-wire SLC loop that provides both data and - VDC power. The detector is connected to the incoming and out going supply via terminals L and L in the mounting base A remote LED indicator may be connected between the R and R terminals. A ground connection terminal is also provided. The low profile design of the FW Multi-Criteria Detector is sleek and evolutionary, with a LED indicator which illuminates red when in alarm. At the heart of the photoelectric smoke sensor is Purelight Sensing Technology which incorporates Cone technology combined with a high-intensity infrared LED to provide stability and accurate sensitivity to smoke A sophisticated dynamic algorithm, providing transient re rejection and compensation for drift while maintaining accurate sensitivity.",
+            "features": [
+              "Approved to UL 7th edition and UL 521",
+              "Internal drift compensation",
+              "Easy installation",
+              "Compatible with XP systems",
+              "XPERT card addressing",
+              "Built-in self-test",
+              "Dual heat sensors",
+              "Purelight opical technology provides enhanced smoke detecion and false-alarm management"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc470397b21.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746369ba1ce0.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Fire Watch Multi-Criteria Detector Smoke Heat uses new photoelectric sensing technology, Pure light, to detect smoke particles entering the chamber It reduces the possibility of false alarms while increasing the reliability of detecting a real fire."
+          },
+          {
+            "id": 36,
+            "name": "Smoke Detector (FW5050-250)",
+            "url": "https://fire-watch.co/product/36-smoke-detector-fw5050-250",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_71996.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_71996.png",
+                "alt": "Smoke Detector (FW5050-250)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Smoke Detector is designed to be connected to a two wire SLC loop that provides both data and 17-28 VDC power. The detector is connected to the incoming and outgoing supply via terminals L1 and L2 in the mounting base. A remote LED indicator may be connected between the +R and -R terminals. A ground connection terminal is also provided.",
+            "features": [
+              "Approved to UL 268 7th edition",
+              "Internal drift compensation",
+              "Easy installation",
+              "Compatible with XP95 systems",
+              "XPERT card addressing",
+              "Built-in self-test",
+              "Purelight optical technology provides enhanced smoke detecion and false-alarm management"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670509fcf180e.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092feabe83b.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Fire Watch Smoke Detector uses new photoelectric sensing technology, Pure light, to detect smoke particles entering the chamber. It reduces the possibility of false alarms while increasing the reliability of detecting a real fire."
+          },
+          {
+            "id": 38,
+            "name": "Heat Detector (FW5500-450)",
+            "url": "https://fire-watch.co/product/38-heat-detector-fw5500-450",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_96218.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_96218.png",
+                "alt": "Heat Detector (FW5500-450)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Heat Detector has a molded white polycarbonate case with wind resistant smoke inlets. Inside the case, a printed circuit board holds the signal processing electronics The AR, BR, and CR variants contain a pair of matched negative temperature coefficient NTC thermistors that are mounted to the PCB in a way that one thermistor is exposed to give good thermal contact with the surrounding air while the other thermistor is thermally isolated. Under stable conditions both thermistors are in thermal equilibrium and have the same value of resistance͘ If the air temperature increases rapidly the resistance of the exposed thermistor becomes less than that of the insulated thermistor͘ The ratio of the resistance of the thermistors is monitored electronically and an alarm is initiated if the ratio exceeds and factory pre-set level͘. This feature determines the rate of rise response of the detector͘",
+            "features": [
+              "Ideal for environments that are dirty or smoky un der normal circumstances",
+              "Can be used for applications where smoke detectors are unsuitable",
+              "Wide operating voltage"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705019faed41.pdf"
+              },
+              {
+                "title": "UL Confirmation Letter",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092fbeaa685.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746380841786.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "FW Heat Detectors monitor temperature by using either a dual-thermistor network or a single thermistor CS versions which provides a voltage output proportional to the external air temperature"
+          },
+          {
+            "id": 51,
+            "name": "BASE 4” FW5000-210",
+            "url": "https://fire-watch.co/product/51-base-4-fw5000-210",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_13241.jpg",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_13241.jpg",
+                "alt": "BASE 4” FW5000-210"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "Single base that supports isolated FIREWATCH detectors 8 bit address card for additional address support when used with FIREWATCH detectors and CoreProtocol Designed to replace shallow and deep bases Easy-fit, easy to install and saving time",
+            "features": [],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704432d56950.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670443560ba5d.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709303c631b8.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "FIREWATCH Base - 4\" base is an easy-fit 4\" base, compatible with FIREWATCH latest detector ranges. Single base that supports isolated FIREWATCH detectors 8 bit address card for additional address support when used with FIREWATCH detectors and CoreProtocol"
+          },
+          {
+            "id": 52,
+            "name": "Isolator FW 55000-750",
+            "url": "https://fire-watch.co/product/52-isolator-fw-55000-750",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_38889.jpg",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_38889.jpg",
+                "alt": "Isolator FW 55000-750"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "All data is supplied subject to change without notice. Specifications are typical at 24 V, 73°F and 50% RH unless otherwise stated. Notes: Working voltage 17 V - 28 V dc (max dc voltage range) Digital communication (Discovery and CoreProtocol compatible) Modulation voltage 5 - 9 V peak to peak Single line circuit (SLC) Supervised Supervisory current 110 µA Surge current 0 mA Maximum current drawn 8.5 mA Maximum line impedance 50 Ω Temperature range 32 ºF to 100 ºF (0ºC to 38ºC) Humidity (no condensing or icing) 10% to 93% RH Dimensions 4.0 in. (100 mm)diameter x 1.25 in. (32 mm) height Materials White flame-retardant polycarbonate 1. The isolator must be connected to a power limited circuit with a maximum loop current of continuous 1 A. For further information on the isolator refer to PP2090 - Short- circuit isolation. Available from www.fire-watch.co",
+            "features": [
+              "• Detects wiring short-circuits using patented technology",
+              "• Minimizes disruption from short circuits",
+              "• Automatic de-isolation on short-circuit removal",
+              "Up to 20 devices may be installed between isolators"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442c474150.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442e789f96.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930585c98f.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Isolator is placed at intervals on the loop and ensures that, in the case of a short circuit, only the section is removed, the isolators automatically restore power and data to the isolated section."
+          },
+          {
+            "id": 53,
+            "name": "Isolator Detector Base (FW45681-211)",
+            "url": "https://fire-watch.co/product/53-isolator-detector-base-fw45681-211",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_72139.jpg",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_72139.jpg",
+                "alt": "Isolator Detector Base (FW45681-211)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "FW Detector base has been designed for easy installation of the detector to the base, without need of force which can be useful when mounting detectors to suspended ceilings The detectors have a one-way fit to the base, and the FW detecors can be locked into place by a 1.5mm hexagonal grub scew.",
+            "features": [
+              "One-way fit",
+              "Detector Locking mechanism",
+              "Contains an Earth Connector",
+              "Contains no electrical Parts"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704427690405.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670441e6c041e.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709306edfda6.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "FW Detector base has been designed for easy installation of the detector to the base, without need of force which can be useful when mounting detectors to suspended ceilings"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Modules",
+        "url": "https://fire-watch.co/products/22-modules",
+        "products": [
+          {
+            "id": 39,
+            "name": "UL NAC Module (FW4705-706)",
+            "url": "https://fire-watch.co/product/39-ul-nac-module-fw4705-706",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_28070.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_28070.png",
+                "alt": "UL NAC Module (FW4705-706)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW NAC Module is designed to enhance the functionality of your fire alarm system by enabling notification appliances to operate either continuously or in a pulsing pattern, depending on your specific needs. This versatility ensures that alarms can be tailored to suit different emergency scenarios. With the ability to control appliances individually or in groups, the FW NAC Module offers a high level of customization, allowing for more efficient and targeted responses during critical situations. Whether you need a constant alert or a pulsing signal, the FW NAC Module provides reliable and flexible control, ensuring comprehensive fire safety management across any environment.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Can be used for PA speakers",
+              "Power supply monitoring and polarity detecion",
+              "Active short-circuit detection panel power supply dependent",
+              "Improved design for ease of wiring"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc1eba706.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670931196b4d1.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW NAC Module enables notification appliances to be operated continuously or in a pulsing pattern Appliances may be operated individually or in groups."
+          },
+          {
+            "id": 40,
+            "name": "UL Input/Output Module (FW4705-703)",
+            "url": "https://fire-watch.co/product/40-ul-inputoutput-module-fw4705-703",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_27583.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_27583.png",
+                "alt": "UL Input/Output Module (FW4705-703)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Input/Output Module is a versatile, loop-powered device designed to streamline fire safety operations. It features a monitored input circuit, allowing for seamless connection to remote switches, ensuring that all critical points in your fire alarm system are continuously monitored. Additionally, the module comes equipped with a volt-rated dry-contact relay output, providing reliable control over external devices. This combination of input monitoring and output control makes the FW Input/Output Module an essential component for enhancing fire safety system performance, ensuring both efficient monitoring and quick responses in emergency situations.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Ground Fault detection",
+              "Improved design for ease of wiring"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedca30dce9.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709310518261.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463839830ee.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW Input Output Module is a loop-powered device that combines a monitored input circuit for connection to remote switches, and a volt-rated dry-contact relay output."
+          },
+          {
+            "id": 41,
+            "name": "UL Relay Output Module (FW4705-701)",
+            "url": "https://fire-watch.co/product/41-ul-relay-output-module-fw4705-701",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_15635.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_15635.png",
+                "alt": "UL Relay Output Module (FW4705-701)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Relay Output Module is a loop-powered device designed to deliver dependable control in various fire safety systems. It features a VAC-rated dry contact output, making it ideal for managing external devices like alarms or notifications. For added versatility, the module can be safely installed outdoors when housed in a suitable weatherproof enclosure, ensuring reliable performance even in harsh environmental conditions. This makes the FW Relay Output Module an excellent choice for both indoor and outdoor fire safety applications, providing flexible and robust system control.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Improved design for ease of wiring"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc8155b17.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930e9d601f.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW Relay Output Module is a loop-powered device that incorporates a VAC-rated dry contact output The module can be used outdoors if mounted in a suitable weatherproof enclosure"
+          },
+          {
+            "id": 42,
+            "name": "UL Input Monitor Module (FW4705-700)",
+            "url": "https://fire-watch.co/product/42-ul-input-monitor-module-fw4705-700",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_17405.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_17405.png",
+                "alt": "UL Input Monitor Module (FW4705-700)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Input Monitor Module is a loop-powered device that features a monitored input circuit, designed for reliable connection to remote switches in fire safety systems. Engineered specifically for indoor use, this module ensures accurate monitoring of system inputs, providing dependable integration into various fire detection and safety setups. Its design prioritizes consistent performance, making it an essential component for effective fire safety management.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Improved design for ease of wiring",
+              "Ground Fault Detection",
+              "Selectable Interrupt Priority for fast response"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedbeb48ae6.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930cdcd29c.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Input Monitor Module is a loop-powered device that incorporates a monitored input circuit for connection to remote switches For indoor use only"
+          },
+          {
+            "id": 43,
+            "name": "UL Dual Input Monitor Module (FW4705-720)",
+            "url": "https://fire-watch.co/product/43-ul-dual-input-monitor-module-fw4705-720",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_44659.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_44659.png",
+                "alt": "UL Dual Input Monitor Module (FW4705-720)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Dual Input Monitor Module is a loop-powered device featuring dual monitored input circuits, designed for seamless connection to remote switches. Tailored for indoor use, this module enhances fire safety systems by providing reliable monitoring of two input sources. Its dual-input design ensures efficient integration into complex fire detection setups, delivering dependable performance in critical situations.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Improved design for ease of wiring",
+              "Ground Fault Detection",
+              "Selectable Interrupt Priority for fast response"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedcd1b84c4.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930b623157.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Dual Input Monitor Module is a loop-powered device that incorporates dual monitored input circuits for connection to remote switches For indoor use only"
+          },
+          {
+            "id": 44,
+            "name": "UL Mini Monitor Module (FW705-600)",
+            "url": "https://fire-watch.co/product/44-ul-mini-monitor-module-fw705-600",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_47427.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_47427.png",
+                "alt": "UL Mini Monitor Module (FW705-600)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Mini Input Monitor Module is a loop-powered device with a monitored input circuit designed for connection to remote switches. Ideal for indoor use, this compact module provides dependable monitoring while conserving space, making it a perfect choice for streamlined fire safety installations in smaller or confined areas.",
+            "features": [
+              "Built-in isolator and visible LED",
+              "Loop Powered",
+              "Fits into equipment that has limited space",
+              "Ground Fault Detection",
+              "Selectable Interrupt Priority for fast response",
+              "Improved design for ease of mounting"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670453db87966.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Mini Input Monitor Module is a loop-powered device that incorporates a monitored input circuit for connection to remote switches. For indoor use only"
+          },
+          {
+            "id": 46,
+            "name": "Mini Monitor Module (FW705-600)",
+            "url": "https://fire-watch.co/product/46-mini-monitor-module-fw705-600",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_19570.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_19570.png",
+                "alt": "Mini Monitor Module (FW705-600)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Mini Monitor Module is a loop-powered device that offers a monitored input circuit for easy connection to switches. Housed in a compact design, it fits conveniently into an electrical box or can be DIN-rail mounted. With an optional priority interrupt function, this module ensures faster response to input activations, making it an efficient and space-saving solution for fire safety systems.",
+            "features": [
+              "Three color LEDs",
+              "Selectable Interrupt Non-Interrupt status"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67045328afb24.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW Mini Monitor Module is a loop-powered device that provides a monitored input circuit for connection to switches The module is supplied in a small housing designed to it into an electrical box or to be DIN-rail mounted The Mini Monitor Module has an optional priority interrupt function providing a faster response to input activations"
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "Manual Pull Stations",
+        "url": "https://fire-watch.co/products/23-manual-pull-stations",
+        "products": [
+          {
+            "id": 47,
+            "name": "Dual Action Manual Call Point (FW56000-005)",
+            "url": "https://fire-watch.co/product/47-dual-action-manual-call-point-fw56000-005",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_25180.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_25180.png",
+                "alt": "Dual Action Manual Call Point (FW56000-005)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The address of each pull station is set at the commissioning stage by means of a seven-segment DIP-switch. Pushing in and then pulling down on the handle causes it to latch in the down activated position Once activated the yellow activated lag appears at the bottom of the panel station face The pull station is reset by inserting and turning the reset key into the top of the unit This opens the door of the pull station allowing the handle to return to the normal position Closing the door automatically resets the switch.",
+            "features": [
+              "Visible LED indicates polling and alarm status",
+              "Key lock, easily reset",
+              "Lightweight polycarbonate housing",
+              "Optional backbox"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd57693ea.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709320a52e86.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674639b44b49a.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW Dual-Action Addressable Manual Pull Station features a translucent plastic panel at the center enabling visibility of an internal LED that indicates polling and alarm status For indoor use only."
+          },
+          {
+            "id": 48,
+            "name": "UL Manal Pull Station Backbox",
+            "url": "https://fire-watch.co/product/48-ul-manal-pull-station-backbox",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_28727.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_28727.png",
+                "alt": "UL Manal Pull Station Backbox"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The FW Manual Pull Station Backbox is designed to facilitate the surface mounting of the FW UL Manual Pull Station. This durable backbox ensures secure installation and provides a convenient solution for mounting in areas where flush installation isn't possible. Ideal for enhancing accessibility and compliance in fire safety systems.",
+            "features": [
+              "Color: Red",
+              "Weight: 88g",
+              "Length: 5.51” (140 mm)",
+              "Width: 4.25” (10 mm)",
+              "Depth: 1.77” (45 mm)",
+              "Warranty: 10 Years"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67018a53b8b86.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The FW Manual Pull Station Backbox is used to allow surface mounting of the FW UL Manual Pull Station"
+          },
+          {
+            "id": 50,
+            "name": "Manual Pull Station (FW-MPS-1T-KL) (FW-MPS-1T-LPA)",
+            "url": "https://fire-watch.co/product/50-manual-pull-station-fw-mps-1t-kl-fw-mps-1t-lpa",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_93488.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_93488.png",
+                "alt": "Manual Pull Station (FW-MPS-1T-KL) (FW-MPS-1T-LPA)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The Fire Watch manual pull station is a robust, high-quality, die-cast unit designed for durability and reliability in fire safety systems. Featuring a low-profile design with smooth, clean edges, it combines aesthetics with functionality, making it suitable for a variety of installations. Each component is either powder-coated or plated to provide superior corrosion resistance, ensuring longevity in both indoor and outdoor environments. The pull station operates with a Single-Pole Single-Throw (SPST) switch rated at 10 amps @ 125 VAC, delivering consistent, reliable performance for effective fire alarm activation when needed.",
+            "features": [
+              "Rugged Die-Cast Design",
+              "Single-Gang Mounting",
+              "14 GA Plated Steel Backplate",
+              "Single- and Dual-Action (Lift and Pull) Models",
+              "Operating Temperature: -40°F to 150°F, 85% RH",
+              "14 to 22 AWG Wiring Terminals",
+              "Manufactured in the USA"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedda9d93e7.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Fire Watch manual pull station is a high quality non toxic die-cast manual pull station. Low profile design and smooth edges offer an attractive yet functional design. All components are powder coated or have plated surfaces to inhibit corrosion. A Single-Pole Single-Throw (SPST) switch rated for 10 amps @ 125 VAC provides consistent and reliable operation."
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "Notifications",
+        "url": "https://fire-watch.co/products/24-notifications",
+        "products": [
+          {
+            "id": 49,
+            "name": "UL Open Area Sounder VAD (FW58000-011)",
+            "url": "https://fire-watch.co/product/49-ul-open-area-sounder-vad-fw58000-011",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_29152.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_29152.png",
+                "alt": "UL Open Area Sounder VAD (FW58000-011)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The Fire Watch UL Open-Area Sounder Visual Indicator offers a selection of 15 customizable evacuation tones, ensuring compliance with local regulations and specific site requirements. In addition to the main evacuation tone, a secondary alert tone can be set for warnings or pre-evacuation alerts. With adjustable sound levels, spanning seven distinct options, the device allows for precise volume control to suit different environments. The unit provides flexibility by enabling both the sounder and visual indicator to operate together or separately, making it adaptable for varied installation needs and ensuring optimal performance across all situations.",
+            "features": [
+              "15 evacuation tones + 15 secondary or alert tones",
+              "Alarm switching by individual device, of all devices on the loop",
+              "Independent control of sounder and beacon",
+              "Set-up and testing of devices at point of installation",
+              "Isolator status information",
+              "Sounder automatically silences after 20 minutes (optional)",
+              "Class change bell tone"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd1150416.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709322aa719d.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The Fire Watch UL Open-Area Sounder Visual Indicator is an alarm device made up of a sounder, visual indicator and short-circuit isolator. It is used to provide audible and visual warning of fire and is controlled by the fire control panel."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Conventional System",
+    "url": "https://fire-watch.co/sub-category/11-conventional-system",
+    "image": "https://fire-watch.co/storage/images/Category/Category_67284.png",
+    "subCategories": [
+      {
+        "id": 20,
+        "name": "Control Panels",
+        "url": "https://fire-watch.co/products/20-control-panels",
+        "products": [
+          {
+            "id": 34,
+            "name": "PLUS FW-CP",
+            "url": "https://fire-watch.co/product/34-plus-fw-cp",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_38686.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_38686.png",
+                "alt": "PLUS FW-CP"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "A single programming method using just 3 front panel buttons allows an extensive list of curation options to be set and reviewed. Single board construction enables easy removal of all electronic parts by removing just two screws, and ample provision of cable entry knockouts simplify installation. 4 Amo notification appliance power and built-in selectable sync protocols provide ample power and control for a wide range of standard notification appliances. The built-in RS485 communications bus provides the facility to connect 4 wire annunciators or ancillary relay boards to provide further indication and control options throughout a premises.",
+            "features": [
+              "Two, four or eight initiating circuits",
+              "Initiating circuits individually curable as Fire, Water Flow or Supervisory",
+              "Two 2A notification appliance circuits",
+              "Selectable NAC sync protocols",
+              "6.5A power supply",
+              "Alarm verification selectable by zone",
+              "Resettable aux power output rated at 0.3A",
+              "Aux power configurable to power off on Fire condition",
+              "Fire, trouble and supervisory relays",
+              "72 hour standby with 7Ah batteries",
+              "Compact enclosure",
+              "UL864 listed"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704feec0eb3b.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters (All Models)",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670932a021c56.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746367451fc7.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The PLUS built-in communicator. With two, four or eight initiating circuits all panels can be extensively configured via a sample front panel operated programming method."
+          },
+          {
+            "id": 54,
+            "name": "Conventional Annunciator (FW1885-18) (FW1885-48)",
+            "url": "https://fire-watch.co/product/54-conventional-annunciator-fw1885-18-fw1885-48",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_74802.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_74802.png",
+                "alt": "Conventional Annunciator (FW1885-18) (FW1885-48)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "The PLUS FW-CP Annunciator includes an internal sounder and an automatic control for adjusting the lamp intensity of the Power and Trouble LEDs on the fascia of the unit. The annunciator provides connections for 24 VDC power and RS 485 communication. The RS 485 Bus supports maximum of 7 PLUS FW-CP Annunciators. The PLUS FW-CP Annunciator includes a dip switch for addressing and an End Of Line Resistor (EOLR). LEDs are included inside the annunciator for monitoring heart beat, error, transmit and receive conditions. The fascia and back- box of the PLUS FW-CP Annunciator is provided in colors of grey or red.",
+            "features": [
+              "UL 864 Approved",
+              "Red or Grey",
+              "8 zone indicators",
+              "Fire, Trouble and Supervisory annunciation",
+              "Internal Buzzer",
+              "Internal Trouble diagnosis indicators",
+              "Easy access to terminals",
+              "Four wire connection (data and power)",
+              "Supervised data connection",
+              "Up to 7 annunciators per system",
+              "Compatible with lush mount collar"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670448903824c.pdf"
+              },
+              {
+                "title": "Model FW1885-18",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093167da2a2.pdf"
+              },
+              {
+                "title": "Model FW1885-48",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093176369d9.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The PLUS FW-CP Annunciator provides remote status indications of the Status indications for 8 zones are provided on the annunciator, but it is also compatible with 2 and 4 zone control panels. Zone LED indicators and Status LED indicators are synchronized to light at identical rates."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Gas Releasing System",
+    "url": "https://fire-watch.co/sub-category/12-gas-releasing-system",
+    "image": "https://fire-watch.co/storage/images/Category/Category_65723.png",
+    "subCategories": [
+      {
+        "id": 25,
+        "name": "Addressable Control Panel",
+        "url": "https://fire-watch.co/products/25-addressable-control-panel",
+        "products": [
+          {
+            "id": 33,
+            "name": "FW-XT+ (FW Multi-Area Releasing Control Units)",
+            "url": "https://fire-watch.co/product/33-fw-xt-fw-multi-area-releasing-control-units",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_70195.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_70195.png",
+                "alt": "FW-XT+ (FW Multi-Area Releasing Control Units)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "Up to 15 releasing modules may be connected to a ORCA ire alarm control panel. Each releasing module can accommodate a separate hazard defined by two specific zones. Each FWXT+ unit is equipped with a 5.25 A power supply (120 VAC or 240 VAC) to power releasing modules and attached solenoids / actuators or sequential activators. Each releasing module has a comprehensive set of inputs and outputs and is configurable via a simple programming interface provided by Loop Explorer 2. Each releasing module may have up to 7 serially connected PLUS FW-SI status units or PLUS FW-XT ancillary boards.",
+            "features": [
+              "UL 864 10th Edition Listed",
+              "Up to 2 releasing areas / hazards per FWXT+ unit",
+              "Dual releasing outputs for each area (configurable as Main/Reserve)",
+              "irst and second stage NAC outputs for each area",
+              "First and second stage volt free changeover relays for each area",
+              "Released volt-free relay per area",
+              "Trouble volt-free relay per area",
+              "Programmable output duration",
+              "Programmable output duration Countdown indicator shows time until release in seconds",
+              "Mode select and manual release controls per area",
+              "Monitored remote manual release input",
+              "Monitored remote abort input",
+              "Monitored remote mode select input",
+              "Monitored remote released pressure switch input",
+              "Serial connections for status units and ancillary boards"
+            ],
+            "documents": [
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb264e213f9.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "FWXT+ releasing control units are multi-area releasing control units containing one or two releasing modules complying with UL 864 10th edition."
+          },
+          {
+            "id": 55,
+            "name": "PLUS FW-SI (FW1823-10) (FW1832-10)",
+            "url": "https://fire-watch.co/product/55-plus-fw-si-fw1823-10-fw1832-10",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_26739.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_26739.png",
+                "alt": "PLUS FW-SI (FW1823-10) (FW1832-10)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "All models provide high brightness, LED indication of Manual Only, Automatic and Manual, Abort Operated, Disabled, Imminent and Released conditions. Models are also available with zonal ire indicators and a common trouble indicator. For systems where local control of the Automatic/Manual mode and or a Manual extinguishant release control are required, units are available with these controls fitted. All models have supervised inputs for the remote connection of Automatic/Manual mode and abort switches. All units contain a large, LED display that shows a countdown of the time remaining until release in seconds. Up to seven PLUS FW-SI status units can be connected to the FW PLUS -XT serial bus and require just two cores for data and two cores for power. Once connected, status units are supervised, and the PLUS FW -XT control panel will indicate a trouble condition should any unit become disconnected.",
+            "features": [
+              "High brightness LED’s",
+              "Detailed indication of the status of the Control Panel",
+              "Supervised data connection",
+              "Countdown shows time remaining until release",
+              "Manual only and Automatic & Manual mode select",
+              "Four-wire connection (data and power)",
+              "Protected dual action manual release switch option",
+              "Option for zonal ire and trouble indication with buzzer",
+              "Robust, high quality enclosure",
+              "Easy access to terminals",
+              "Remote Auto/Manual door interlock input (supervised)",
+              "Remote Abort input (supervised)",
+              "Internal trouble diagnosis indicators"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670452d49d982.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "The PLUS FW-SI range of status indicators provides detailed status information for PLUS FW-XT releasing control equipment."
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "Conventional Control Panel",
+        "url": "https://fire-watch.co/products/26-conventional-control-panel",
+        "products": [
+          {
+            "id": 32,
+            "name": "PLUS-XT (FW1810-12) (FW1810-13) (FW1810-43)",
+            "url": "https://fire-watch.co/product/32-plus-xt-fw1810-12-fw1810-13-fw1810-43",
+            "image": "https://fire-watch.co/storage/images/Product/images/Product_27679.png",
+            "images": [
+              {
+                "src": "https://fire-watch.co/site_assets/images/logo.svg",
+                "alt": "Fire Watch logo"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/pages_banners/pages_banners_12045.png",
+                "alt": "OUR PRODUCT RANGE"
+              },
+              {
+                "src": "https://fire-watch.co/storage/images/Product/images/Product_27679.png",
+                "alt": "PLUS-XT (FW1810-12) (FW1810-13) (FW1810-43)"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/check.svg",
+                "alt": "check"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
+                "alt": "pdf"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo.svg",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/location.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/icons/phone.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/contact/email_white.webp",
+                "alt": "linked in"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_1.svg",
+                "alt": "logo 1"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_2.svg",
+                "alt": "logo 2"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/footer/logo_3.svg",
+                "alt": "logo 3"
+              },
+              {
+                "src": "https://fire-watch.co/site_assets/images/social_media/linked_in.webp",
+                "alt": "linked in"
+              }
+            ],
+            "description": "With three initiating circuits as standard, release can be configured to activate from any combination of detection zone inputs to allow (among other combinations) any two from three types of activations for detection in ceiling void, room and floor void applications. The extensive configuration options of the PLUS-XT allow the functionality of the system to be extensively modified. The panel contains a large LED display to enable easy configuration and control which also displays the time remaining until release for added user safety. The countdown time is duplicated on up to seven remote status units to provide local indication of the system status. With all the electronics mounted on a single, easily removable, steel plate. PLUS-XT panels are both robust and easy to install. PLUS-XT is supplied in an enclosure that matches the design and color of the Elite RS range and is available in standard red or optional grey",
+            "features": [
+              "UL864 and FM Listed",
+              "Three initiation circuits as standard",
+              "Any single zone or any combinations of zones can be configured to release",
+              "Configurable first stage NAC delays",
+              "Configurable detection delays",
+              "Zero time delay upon manual release option",
+              "Supports up to seven, four wire status indicators",
+              "Built in Extract Fan control",
+              "Compatible with I.S. barriers",
+              "Non-latching zone input option to receive signals from other systems such as aspirating equipment",
+              "Configurable releasing delays up to 60 seconds in 5 second stops",
+              "Configurable releasing duration up to 5 minutes in 5 second steps",
+              "Countdown timer shows time remaining until release"
+            ],
+            "documents": [
+              {
+                "title": "Data Sheets",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67050a432f170.pdf"
+              },
+              {
+                "title": "UL Confirmation Letters (All Models)",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670933207b94c.pdf"
+              },
+              {
+                "title": "UL Certificate",
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746362dbc8f1.pdf"
+              }
+            ],
+            "breadcrumb": [],
+            "listingDescription": "FW PLUS-XT releasing panel offers outstanding value and performance for all small to medium fixed firefighting installations."
+          }
+        ]
+      }
+    ]
+  }
+]
