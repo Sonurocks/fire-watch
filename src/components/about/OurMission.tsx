@@ -27,11 +27,11 @@ export default function OurMission() {
             {OUR_MISSION_DATA.label}
           </SectionLabel>
 
-          <h2 className="whitespace-pre-line font-helvetica text-3xl font-medium leading-[1.16] tracking-[-0.01em] text-white md:text-[44px] lg:text-[48px]">
+          <h2 className="whitespace-pre-line font-helvetica text-[30px] md:text-[36px] lg:text-[48px] font-medium leading-[1.16] tracking-[-0.01em] text-white">
             {OUR_MISSION_DATA.title}
           </h2>
 
-          <p className="max-w-[762px] font-host text-base font-normal leading-[1.48] tracking-[-0.01em] text-text-gray-sub md:text-[20px]">
+          <p className="max-w-[762px] font-host text-[16px] lg:text-[18px] font-normal leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] text-text-gray-sub">
             {OUR_MISSION_DATA.description}
           </p>
         </div>
@@ -50,13 +50,10 @@ export default function OurMission() {
                 text-text-dark
                 shadow-sm
                 backdrop-blur-[16px]
-                transition-[background-color,transform,box-shadow,color]
                 hover:scale-[1.03]
                 hover:bg-brand-red
                 hover:text-white
                 hover:shadow-lg
-                hover:[clip-path:polygon(40px_0,100%_0,100%_100%,0_100%,0_40px)]
-                hover:rounded-tl-none
               "
             >
               <h3

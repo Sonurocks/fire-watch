@@ -9,36 +9,45 @@ export default function ContactSection() {
   return (
     <section className="bg-white w-full flex flex-col items-center px-5 md:px-[40px] lg:px-[56px] py-12 md:py-16 lg:py-[80px]">
       <div className="w-full flex flex-col gap-10 md:gap-14 lg:gap-[60px]">
-        <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-10 lg:gap-12">
-          <div className="w-full lg:w-[377px] flex flex-col gap-4 md:gap-[24px]">
-            <h2 className="text-3xl md:text-4xl lg:text-[48px] font-medium font-helvetica text-[#111111] leading-tight lg:leading-[1.16] tracking-[-0.01em]">
+        <div className="w-full flex flex-col lg:flex-row items-start gap-6 lg:gap-12">
+
+          <div className="w-full lg:w-[320px] xl:w-[377px] flex-shrink-0 flex flex-col gap-3 md:gap-5">
+            <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-text-dark leading-[1.16] tracking-[-0.01em]">
               {CONTACT_INFO_DATA.title}
             </h2>
-            <p className="text-base md:text-[18px] font-normal font-host text-[#757575] leading-[1.6] tracking-[-0.01em]">
+            <p className="text-[15px] sm:text-[16px] lg:text-[18px] font-normal font-host text-text-muted leading-[1.58] lg:leading-[1.6] tracking-[-0.01em]">
               {CONTACT_INFO_DATA.description}
             </p>
           </div>
 
-          <div className="w-full lg:w-[350px] flex flex-col space-y-6 md:space-y-8">
-            {CONTACT_INFO_DATA.details.map((item) => (
-              <div key={item.id} className="flex flex-col">
-                <div className="flex items-center gap-2">
-                  <span className="text-black text-xl md:text-[24px] font-medium leading-none lg:leading-[40px] tracking-[0.01em] select-none">
+          <div className="w-full flex-1 bg-c-f7f7f7 rounded-[14px] p-5 sm:p-6 flex flex-col sm:flex-row sm:justify-between">
+            {CONTACT_INFO_DATA.details.map((item, index) => (
+              <div
+                key={item.id}
+                className={[
+                  "flex flex-col flex-1 min-w-0 py-4 sm:py-0 sm:px-6",
+                  index === 0 ? "sm:pl-0" : "",
+                  index === CONTACT_INFO_DATA.details.length - 1 ? "sm:pr-0" : "",
+                  index !== 0 ? "border-t border-gray-200 sm:border-t-0" : "",
+                ].join(" ")}
+              >
+                <div className="flex items-center gap-1.5 mb-2 flex-nowrap">
+                  <span className="text-black font-medium font-helvetica select-none flex-shrink-0 text-[14px] md:text-[16px] xl:text-[20px] leading-none">
                     &bull;
                   </span>
-                  <h3 className="text-xl md:text-[24px] font-medium font-helvetica text-black leading-snug lg:leading-[40px] tracking-[0.01em]">
+                  <h3 className="text-[14px] md:text-[16px] lg:text-[18px] xl:text-[24px] font-medium font-helvetica text-black leading-[1.4] xl:leading-[40px] tracking-[0.01em]">
                     {item.label}
                   </h3>
                 </div>
 
-                <div className="mt-1 pl-5 sm:pl-6 flex flex-col space-y-0.5">
+                <div className="pl-4 flex flex-col gap-0.5">
                   {item.values.map((val, idx) => {
                     if (item.linkPrefix) {
                       return (
                         <a
                           key={idx}
                           href={`${item.linkPrefix}${val.replace(/\s+/g, "")}`}
-                          className="text-base md:text-[20px] font-normal font-helvetica text-black hover:text-primary transition-colors leading-relaxed lg:leading-[34px] tracking-[0.01em] inline-block"
+                          className="text-[13px] md:text-[14px] lg:text-[15px] xl:text-[18px] font-normal font-helvetica text-c-252525 hover:text-primary transition-colors leading-[1.6] xl:leading-[34px] tracking-[0.01em] inline-block break-all"
                         >
                           {val}
                         </a>
@@ -47,7 +56,7 @@ export default function ContactSection() {
                     return (
                       <span
                         key={idx}
-                        className="text-base md:text-[20px] font-normal font-helvetica text-black leading-relaxed lg:leading-[34px] tracking-[0.01em] block"
+                        className="text-[13px] md:text-[14px] lg:text-[15px] xl:text-[18px] font-normal font-helvetica text-c-252525 leading-[1.6] xl:leading-[34px] tracking-[0.01em] block"
                       >
                         {val}
                       </span>
@@ -62,7 +71,7 @@ export default function ContactSection() {
         <div
           onClick={() => setIsMapActive(true)}
           onMouseLeave={() => setIsMapActive(false)}
-          className="w-full h-[320px] sm:h-[400px] md:h-[460px] lg:h-[503px] rounded-[10px] overflow-hidden shadow-sm border border-gray-200 relative bg-gray-100 group"
+          className="w-full h-[260px] sm:h-[360px] md:h-[440px] lg:h-[503px] rounded-[10px] overflow-hidden shadow-sm border border-gray-200 relative bg-gray-100"
         >
           <iframe
             title="Fire Watch Location Map"

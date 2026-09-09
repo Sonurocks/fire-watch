@@ -25,11 +25,11 @@ export default function Features() {
           <div className="flex-1 w-full pt-4 lg:pt-6">
             <SectionLabel>{FEATURE_DATA.label}</SectionLabel>
 
-            <h2 className="mt-4 text-4xl md:text-5xl lg:text-[42px] xl:text-[48px] font-medium text-text-dark leading-[1.15] tracking-tight">
+            <h2 className="mt-4 text-[30px] md:text-[36px] lg:text-[48px] font-medium font-host text-text-dark leading-[1.16] tracking-[-0.01em]">
               {FEATURE_DATA.title}
             </h2>
 
-            <p className="mt-6 font-host text-text-muted text-[20px] font-normal leading-[1.48] tracking-[-0.01em] max-w-[634px]">
+            <p className="mt-6 font-host text-text-muted text-[16px] lg:text-[18px] font-normal leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] max-w-[634px]">
               {FEATURE_DATA.description}
             </p>
 

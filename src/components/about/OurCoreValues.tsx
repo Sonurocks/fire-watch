@@ -26,7 +26,7 @@ export default function OurCoreValues() {
             {OUR_CORE_VALUES_DATA.label}
           </SectionLabel>
 
-          <h2 className="text-3xl sm:text-[40px] lg:text-[48px] font-medium text-text-dark leading-[1.16] tracking-[-0.01em] font-helvetica whitespace-pre-line">
+          <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium text-text-dark leading-[1.16] tracking-[-0.01em] font-helvetica whitespace-pre-line">
             {OUR_CORE_VALUES_DATA.title}
           </h2>
         </div>
@@ -68,7 +68,7 @@ export default function OurCoreValues() {
                       />
                     </div>
                   </div>
-                  <h3 className="text-lg md:text-[20px] lg:text-[22px] font-medium font-helvetica text-text-dark tracking-[-0.01em]">
+                  <h3 className="text-[16px] lg:text-[20px] font-medium font-helvetica text-text-dark tracking-[-0.01em] leading-[1.44] lg:leading-[1.48]">
                     {item.title}
                   </h3>
                 </div>

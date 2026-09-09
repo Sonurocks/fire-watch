@@ -131,6 +131,28 @@
   --font-helvetica: "Helvetica Neue", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
   --font-host: "Host Grotesk", sans-serif;
+
+  --color-c-545454: #545454;
+  --color-c-565656: #565656;
+  --color-c-989898: #989898;
+  --color-c-f7f7f7: #f7f7f7;
+  --color-c-252525: #252525;
+  --color-c-414141: #414141;
+  --color-c-d5d5d5: #d5d5d5;
+  --color-c-555555: #555555;
+  --color-c-8d2b22: #8d2b22;
+  --color-c-f9f9f9: #f9f9f9;
+  --color-c-525252: #525252;
+  --color-c-8c8c8c: #8c8c8c;
+  --color-c-f4f4f4: #f4f4f4;
+  --color-c-e5e5e5: #e5e5e5;
+  --color-c-666666: #666666;
+  --color-c-6f6f6f: #6f6f6f;
+  --color-c-f1f1f1: #f1f1f1;
+  --color-c-2a2a2a: #2a2a2a;
+  --color-c-2b2b2b: #2b2b2b;
+  --color-c-f0f0f0: #f0f0f0;
+  --color-c-990000: #990000;
 }
 
 @media (prefers-color-scheme: dark) {

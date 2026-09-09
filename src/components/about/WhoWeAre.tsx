@@ -9,7 +9,7 @@ export default function WhoWeAre() {
           {WHO_WE_ARE_DATA.label}
         </SectionLabel>
 
-        <h2 className="mt-6 text-4xl md:text-[48px] font-medium font-helvetica text-white leading-[1.2] tracking-[-0.01em] max-w-[740px] mx-auto">
+        <h2 className="mt-6 text-[30px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-white leading-[1.16] tracking-[-0.01em] max-w-[740px] mx-auto">
           {WHO_WE_ARE_DATA.title}
         </h2>
 
@@ -17,7 +17,7 @@ export default function WhoWeAre() {
           {WHO_WE_ARE_DATA.paragraphs.map((paragraph, idx) => (
             <p
               key={idx}
-              className="text-base md:text-[18px] font-normal font-host text-white leading-[1.6] tracking-[-0.01em]"
+              className="text-[16px] lg:text-[18px] font-normal font-host text-white leading-[1.58] lg:leading-[1.6] tracking-[-0.01em]"
             >
               {paragraph}
             </p>

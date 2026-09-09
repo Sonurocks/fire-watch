@@ -43,7 +43,7 @@ export default function Navbar() {
 
           <div className="hidden lg:flex items-center justify-center flex-1 gap-5 xl:gap-9 px-4">
             {NAV_LINKS.map((link) => {
-              const isActive = pathname === link.href;
+              const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href + '/'));
               return (
                 <Link
                   key={link.label}
@@ -121,7 +121,7 @@ export default function Navbar() {
 
               <div className="flex flex-col space-y-6">
                 {NAV_LINKS.map((link) => {
-                  const isActive = pathname === link.href;
+                  const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href + '/'));
                   return (
                     <Link
                       key={link.label}

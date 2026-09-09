@@ -11,7 +11,7 @@ export default function ContactCta() {
           {CONTACT_CTA_DATA.label}
         </SectionLabel>
 
-        <h2 className="text-4xl md:text-[48px] font-semibold text-white leading-[1.2] tracking-[-0.01em] mb-6">
+        <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium font-host text-white leading-[1.16] tracking-[-0.01em] mb-6">
           {CONTACT_CTA_DATA.title}
         </h2>
 

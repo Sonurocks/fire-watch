@@ -46,6 +46,8 @@ export default function Footer() {
                   width={84}
                   height={72}
                   className="object-contain w-[70px] sm:w-[84px] lg:w-[70px] xl:w-[84px] h-auto"
+                  unoptimized={true}
+                  quality={100}
                 />
                 <Image
                   src={FOOTER_ASSETS.CERT_APPROVED}
@@ -53,6 +55,8 @@ export default function Footer() {
                   width={84}
                   height={72}
                   className="object-contain w-[70px] sm:w-[84px] lg:w-[70px] xl:w-[84px] h-auto"
+                  unoptimized={true}
+                  quality={100}
                 />
                 <Image
                   src={FOOTER_ASSETS.CERT_NFPA}
@@ -60,6 +64,8 @@ export default function Footer() {
                   width={84}
                   height={72}
                   className="object-contain w-[70px] sm:w-[84px] lg:w-[70px] xl:w-[84px] h-auto"
+                  unoptimized={true}
+                  quality={100}
                 />
               </div>
 

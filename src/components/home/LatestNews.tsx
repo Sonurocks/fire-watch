@@ -8,10 +8,10 @@ export default function LatestNews() {
     <section className="bg-white w-full flex justify-center px-5 md:px-[40px] lg:px-[56px] py-20 lg:py-[80px]">
       <div className="w-full">
         <div className="flex flex-col items-center text-center mb-12 lg:mb-[64px]">
-          <h2 className="text-[32px] md:text-[44px] font-semibold font-montserrat text-text-dark leading-[1.26] tracking-[-0.01em]">
+          <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium font-host text-text-dark leading-[1.16] tracking-[-0.01em]">
             {LATEST_NEWS_HEADER.title}
           </h2>
-          <p className="mt-6 text-[16px] md:text-[20px] font-medium font-montserrat text-text-secondary leading-[1.82] tracking-[-0.01em] max-w-[716px]">
+          <p className="mt-6 text-[16px] lg:text-[18px] font-medium font-host text-text-secondary leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] max-w-[716px]">
             {LATEST_NEWS_HEADER.description}
           </p>
         </div>
@@ -41,7 +41,7 @@ export default function LatestNews() {
                 </p>
                 <Link
                   href={item.link}
-                  className="mt-auto inline-flex items-center gap-2 font-semibold text-[15px] transition-colors duration-300 text-primary hover:text-primary-hover group-hover:text-white group-hover:hover:text-gray-200"
+                  className="mt-auto inline-flex items-center gap-2 font-medium font-helvetica text-[16px] leading-[32px] tracking-[0.02em] transition-colors duration-300 text-primary hover:text-primary-hover group-hover:text-white group-hover:hover:text-gray-200"
                 >
                   Read More <BsArrowRight className="text-lg" />
                 </Link>

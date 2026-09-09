@@ -4,4 +4,4 @@ export * from "./footer";
 export * from "./about";
 export * from "./team";
 export * from "./contact";
-
+export * from "./product";

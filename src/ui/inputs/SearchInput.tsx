@@ -16,11 +16,11 @@ export default function SearchInput({
       <input
         type="text"
         placeholder="Search"
-        className={`bg-transparent text-sm text-gray-700 focus:outline-none w-full font-medium placeholder-[#8C8C8C] ${className}`}
+        className={`bg-transparent text-sm text-gray-700 focus:outline-none w-full font-medium placeholder-c-8c8c8c ${className}`}
         {...props}
       />
       <button
-        className="text-[#8C8C8C] hover:text-gray-600 transition-colors flex-shrink-0 ml-2"
+        className="text-c-8c8c8c hover:text-gray-600 transition-colors flex-shrink-0 ml-2"
         aria-label="Search"
       >
         <FiSearch size={18} strokeWidth={2} />

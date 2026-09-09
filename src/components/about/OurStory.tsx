@@ -9,7 +9,7 @@ export default function OurStory() {
         <div className="flex-1 w-full max-w-[680px] flex flex-col gap-4 md:gap-6">
           <div>
             <SectionLabel>{OUR_STORY_DATA.label}</SectionLabel>
-            <h2 className="mt-4 md:mt-6 text-3xl md:text-4xl lg:text-[48px] font-medium font-helvetica text-text-dark leading-[1.16] tracking-[-0.01em] max-w-[641px]">
+            <h2 className="mt-4 md:mt-6 text-[30px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-text-dark leading-[1.16] tracking-[-0.01em] max-w-[641px]">
               {OUR_STORY_DATA.title}
             </h2>
           </div>

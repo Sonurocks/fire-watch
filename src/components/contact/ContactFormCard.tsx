@@ -40,10 +40,10 @@ export default function ContactFormCard() {
       >
         <div className="relative z-20 w-full xl:flex-1 xl:max-w-[600px] flex flex-col gap-5 sm:gap-6 xl:gap-[24px] p-5 sm:p-8 xl:py-[48px] xl:pl-[48px] xl:pr-[24px] bg-transparent">
           <div className="flex flex-col gap-3 md:gap-4 max-w-[543px]">
-            <h2 className="font-helvetica text-2xl sm:text-3xl md:text-[40px] xl:text-[48px] font-medium text-[#111111] leading-tight xl:leading-[1.16] tracking-[-0.01em]">
+            <h2 className="font-helvetica text-[30px] md:text-[36px] lg:text-[48px] font-medium text-text-dark leading-[1.16] tracking-[-0.01em]">
               Contact Us
             </h2>
-            <p className="font-helvetica text-sm sm:text-base md:text-[18px] font-normal text-[#545454] leading-[1.6] tracking-[-0.01em] max-w-[543px]">
+            <p className="font-helvetica text-[16px] lg:text-[18px] font-normal text-c-545454 leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] max-w-[543px]">
               Have questions about our certified fire detection systems,
               technical support, or system installations? Contact our dedicated
               safety today.
@@ -57,7 +57,7 @@ export default function ContactFormCard() {
           >
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-[24px] w-full">
               <div className="flex flex-col gap-2">
-                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-[#565656] uppercase">
+                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-c-565656 uppercase">
                   FULL NAME
                 </label>
                 <input
@@ -65,12 +65,12 @@ export default function ContactFormCard() {
                   name="fullName"
                   placeholder="e.g. John Doe"
                   required
-                  className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
+                  className="w-full bg-nav-bg text-text-dark font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-c-989898"
                 />
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-[#565656] uppercase">
+                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-c-565656 uppercase">
                   EMAIL ADDRESS
                 </label>
                 <input
@@ -78,39 +78,39 @@ export default function ContactFormCard() {
                   name="email"
                   placeholder="e.g. john@company.com"
                   required
-                  className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
+                  className="w-full bg-nav-bg text-text-dark font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-c-989898"
                 />
               </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-[24px] w-full">
               <div className="flex flex-col gap-2">
-                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-[#565656] uppercase">
+                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-c-565656 uppercase">
                   PHONE NUMBER
                 </label>
                 <input
                   type="tel"
                   name="phone"
                   placeholder="e.g. +1 (559) 000-0000"
-                  className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
+                  className="w-full bg-nav-bg text-text-dark font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-c-989898"
                 />
               </div>
 
               <div className="flex flex-col gap-2">
-                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-[#565656] uppercase">
+                <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-c-565656 uppercase">
                   SYSTEM / INQUIRY TYPE
                 </label>
                 <input
                   type="text"
                   name="inquiryType"
                   placeholder="e.g. Commercial Fire Alarm"
-                  className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898]"
+                  className="w-full bg-nav-bg text-text-dark font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-c-989898"
                 />
               </div>
             </div>
 
             <div className="flex flex-col gap-2 w-full">
-              <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-[#565656] uppercase">
+              <label className="font-helvetica text-[12px] sm:text-[14px] font-medium leading-[1.4] tracking-[0.01em] text-c-565656 uppercase">
                 DETAILED MESSAGE
               </label>
               <textarea
@@ -118,11 +118,11 @@ export default function ContactFormCard() {
                 rows={4}
                 placeholder="Tell us about your facility or technical support requirements..."
                 required
-                className="w-full bg-[#F5F5F5] text-[#111111] font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-[#989898] resize-none"
+                className="w-full bg-nav-bg text-text-dark font-helvetica text-[14px] sm:text-[16px] leading-[1.5] rounded-[8px] px-3 sm:px-4 py-2.5 sm:py-3 border border-transparent focus:border-primary focus:bg-white focus:outline-none transition-all placeholder-c-989898 resize-none"
               />
             </div>
 
-            <div className="mt-1 w-full">
+            <div className="mt-1 w-full md:w-[280px] lg:w-[320px] xl:w-full">
               <SubmitButton isSubmitted={isSubmitted}>
                 Send Message
               </SubmitButton>
