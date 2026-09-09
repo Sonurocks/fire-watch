@@ -5,14 +5,14 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function ProtectingGlobe() {
   return (
-    <section className="relative w-full bg-brand-deep-blue flex flex-col justify-end min-h-[500px] lg:min-h-[684px] overflow-hidden">
+    <section className="relative w-full bg-brand-deep-blue hidden md:flex flex-col justify-end min-h-[500px] lg:min-h-[684px] overflow-hidden">
       <div className="absolute inset-0 w-full h-full z-0 flex items-center justify-center">
-        <div className="relative w-full h-full min-w-[1024px] max-w-[1440px]">
+        <div className="relative w-full aspect-[1216/684] min-w-[1024px] max-w-[1440px]">
           <Image
             src={ABOUT_ASSETS.GLOBE_BG}
             alt="Globe Background"
             fill
-            className="object-cover md:object-contain object-center"
+            className="object-cover object-center"
             sizes="100vw"
             priority
           />
@@ -20,10 +20,14 @@ export default function ProtectingGlobe() {
           {GLOBE_DATA.locations.map((loc) => (
             <div
               key={loc.id}
-              className={`absolute group flex flex-col items-center justify-center cursor-pointer ${
+              className={`absolute group cursor-pointer ${
                 loc.type === "pin" ? "z-30" : "z-10"
               }`}
-              style={{ left: loc.left, top: loc.top }}
+              style={{ 
+                left: loc.left, 
+                top: loc.top,
+                transform: "translate(-50%, -100%)"
+              }}
             >
               {loc.type === "pin" ? (
                 <div
