@@ -10,7 +10,6 @@ export default function ContactSection() {
     <section className="bg-white w-full flex flex-col items-center px-5 md:px-[40px] lg:px-[56px] py-12 md:py-16 lg:py-[80px]">
       <div className="w-full flex flex-col gap-10 md:gap-14 lg:gap-[60px]">
         <div className="w-full flex flex-col lg:flex-row items-start gap-6 lg:gap-12">
-
           <div className="w-full lg:w-[320px] xl:w-[377px] flex-shrink-0 flex flex-col gap-3 md:gap-5">
             <h2 className="text-[28px] sm:text-[32px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-text-dark leading-[1.16] tracking-[-0.01em]">
               {CONTACT_INFO_DATA.title}
@@ -20,15 +19,13 @@ export default function ContactSection() {
             </p>
           </div>
 
-          <div className="w-full flex-1 bg-c-f7f7f7 rounded-[14px] p-5 sm:p-6 flex flex-col sm:flex-row sm:justify-between">
+          <div className="w-full flex-1 flex flex-col sm:flex-row lg:flex-col xl:flex-row sm:justify-between lg:justify-start xl:justify-between gap-6 sm:gap-4 lg:gap-6 xl:gap-8">
             {CONTACT_INFO_DATA.details.map((item, index) => (
               <div
                 key={item.id}
                 className={[
-                  "flex flex-col flex-1 min-w-0 py-4 sm:py-0 sm:px-6",
-                  index === 0 ? "sm:pl-0" : "",
-                  index === CONTACT_INFO_DATA.details.length - 1 ? "sm:pr-0" : "",
-                  index !== 0 ? "border-t border-gray-200 sm:border-t-0" : "",
+                  "flex flex-col min-w-0",
+                  index === 0 ? "sm:flex-[1.4] lg:flex-none xl:flex-[1.3]" : "sm:flex-1 lg:flex-none xl:flex-1",
                 ].join(" ")}
               >
                 <div className="flex items-center gap-1.5 mb-2 flex-nowrap">
@@ -40,7 +37,7 @@ export default function ContactSection() {
                   </h3>
                 </div>
 
-                <div className="pl-4 flex flex-col gap-0.5">
+                <div className="pl-3 sm:pl-3.5 flex flex-col gap-0.5">
                   {item.values.map((val, idx) => {
                     if (item.linkPrefix) {
                       return (
@@ -56,7 +53,7 @@ export default function ContactSection() {
                     return (
                       <span
                         key={idx}
-                        className="text-[13px] md:text-[14px] lg:text-[15px] xl:text-[18px] font-normal font-helvetica text-c-252525 leading-[1.6] xl:leading-[34px] tracking-[0.01em] block"
+                        className="text-[13px] md:text-[14px] lg:text-[15px] xl:text-[18px] font-normal font-helvetica text-c-252525 leading-[1.6] xl:leading-[34px] tracking-[0.01em] block sm:whitespace-nowrap lg:whitespace-normal xl:whitespace-nowrap"
                       >
                         {val}
                       </span>

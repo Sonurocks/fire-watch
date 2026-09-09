@@ -31,8 +31,9 @@ export default function OurStory() {
             src={OUR_STORY_DATA.image}
             alt="Our Story"
             fill
+            quality={100}
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 320px, 560px"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 1120px"
           />
         </div>
       </div>

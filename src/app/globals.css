@@ -115,6 +115,13 @@
   --color-text-gray-hover: #d4d4d4;
   --color-text-accent-red: #632929;
 
+  --color-modal-bg: #142a45;
+  --color-modal-border: #1e4976;
+  --color-modal-input-bg: #1b3554;
+  --color-modal-input-border: #2a4a70;
+  --color-modal-text-muted: #a3b8cc;
+  --color-modal-info-bg: #183254;
+
   --color-border-gray: #bdbdbd;
   --color-icon-circle-bg: #F6ECEC;
   --color-bg-team-sec: #F3F3F3;
@@ -142,10 +149,10 @@
   --color-c-555555: #555555;
   --color-c-8d2b22: #8d2b22;
   --color-c-f9f9f9: #f9f9f9;
-  --color-c-525252: #525252;
-  --color-c-8c8c8c: #8c8c8c;
-  --color-c-f4f4f4: #f4f4f4;
-  --color-c-e5e5e5: #e5e5e5;
+  --color-c-[#525252]: #525252;
+  --color-c-[#8c8c8c]: #8c8c8c;
+  --color-c-[#f4f4f4]: #f4f4f4;
+  --color-c-[#e5e5e5]: #e5e5e5;
   --color-c-666666: #666666;
   --color-c-6f6f6f: #6f6f6f;
   --color-c-f1f1f1: #f1f1f1;

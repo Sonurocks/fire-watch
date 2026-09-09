@@ -30,6 +30,7 @@ export default function ProductCard({
           fill
           className="object-contain object-bottom"
           sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          unoptimized
         />
       </div>
 

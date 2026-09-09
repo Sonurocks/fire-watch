@@ -32,6 +32,7 @@ export default function MeetOurTeam() {
                   fill
                   className="object-cover object-top"
                   sizes="202px"
+                  unoptimized
                 />
               </div>
 

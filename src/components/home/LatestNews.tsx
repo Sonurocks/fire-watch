@@ -11,7 +11,7 @@ export default function LatestNews() {
           <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium font-host text-text-dark leading-[1.16] tracking-[-0.01em]">
             {LATEST_NEWS_HEADER.title}
           </h2>
-          <p className="mt-6 text-[16px] lg:text-[18px] font-medium font-host text-text-secondary leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] max-w-[716px]">
+          <p className="mt-6 text-[16px] lg:text-[18px] font-medium font-host text-text-muted leading-[1.58] lg:leading-[1.6] tracking-[-0.01em] max-w-[716px]">
             {LATEST_NEWS_HEADER.description}
           </p>
         </div>
@@ -29,6 +29,7 @@ export default function LatestNews() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 640px) 100vw, 248px"
+                  unoptimized
                 />
               </div>
 

@@ -16,9 +16,14 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Fire Watch",
-  description: "Fire Watch Dashboard",
-  keywords: ["fire watch", "dashboard"],
+  description: "Fire Watch Safety Network",
+  keywords: ["fire watch", "safety", "fire detection"],
   robots: "index,follow",
+  icons: {
+    icon: "/assets/home/favicon.svg",
+    shortcut: "/assets/home/favicon.svg",
+    apple: "/assets/home/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

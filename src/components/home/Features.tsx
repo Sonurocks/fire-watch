@@ -18,6 +18,7 @@ export default function Features() {
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 560px"
+                unoptimized
               />
             </div>
           </div>

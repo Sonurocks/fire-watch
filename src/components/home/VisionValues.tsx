@@ -18,6 +18,7 @@ export default function VisionValues() {
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 490px"
+                  unoptimized
                 />
               </div>
 

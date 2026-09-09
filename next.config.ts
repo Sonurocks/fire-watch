@@ -8,6 +8,7 @@ const nextConfig: NextConfig = {
         hostname: "fire-watch.co",
       },
     ],
+    qualities: [100],
   },
 };
 

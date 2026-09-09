@@ -37,8 +37,9 @@ export default function OurCoreValues() {
               src={ABOUT_ASSETS.CORE_VALUES_IMG}
               alt="Fire Watch Technician"
               fill
+              quality={100}
               className="object-cover object-center"
-              sizes="(max-width: 1024px) 100vw, 499px"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 1000px"
               priority
             />
           </div>
