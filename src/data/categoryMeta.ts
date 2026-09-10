@@ -5,7 +5,8 @@ export const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 };
 
 export const SUBCATEGORY_DESCRIPTIONS: Record<string, string> = {
-  "control-panels": "Explore our range of intelligent fire alarm control panels",
+  "control-panels":
+    "Explore intelligent fire alarm control panels designed for reliable detection and protection.",
 };
 
 export function getCategoryDescription(slug: string): string {

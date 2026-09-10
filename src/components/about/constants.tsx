@@ -7,7 +7,7 @@ export const ABOUT_HERO_DATA: AboutHeroData = {
   description:
     "Our core mission is protecting lives, structures, and critical environments with certified engineering systems and industry-leading equipment.",
   buttonText: "Explore Our Systems",
-  buttonLink: "/product",
+  buttonLink: "#systems",
 };
 
 export const OUR_STORY_DATA: OurStoryData = {

@@ -65,7 +65,7 @@ export default function Navbar() {
               searchInputContainerClassName="w-full lg:w-[225px] h-[40px] rounded-[40px] border border-search-border bg-[#F8F8F8] px-[16px]"
               searchInputClassName="bg-transparent text-sm text-gray-700 focus:outline-none w-full font-medium placeholder-[#8c8c8c]"
               dropdownClassName="absolute top-[50px] right-0 w-full lg:w-[225px] bg-white rounded-[14px] shadow-2xl border border-gray-100 overflow-hidden z-50 flex flex-col py-2 max-h-[400px] overflow-y-auto [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:bg-gray-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-gray-400"
-              placeholder="Search..."
+              placeholder="Search"
               hideImage={true}
             />
           </div>

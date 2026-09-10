@@ -20,6 +20,18 @@ export function ProductDetailHero({
   return (
     <section className=" w-full mx-auto px-5 md:px-[40px] lg:px-[56px] pb-[80px]">
       <div className="flex flex-col lg:flex-row items-start lg:gap-[60px] xl:gap-[147px] gap-[40px]">
+        <div className="w-full mb-[24px] lg:hidden">
+          <Breadcrumb
+            items={[
+              { label: "Categories", href: "/products" },
+              { label: category.name, href: `/products/${categorySlug}` },
+              { label: subCategory.name, href: `/products/${categorySlug}/${subCategorySlug}` },
+              { label: product.name.split(" (")[0], isActive: true },
+            ]}
+            className="!justify-start"
+          />
+        </div>
+
         <div className="w-full lg:w-[455px] shrink-0 flex flex-col items-center">
           <div className="w-full h-[400px] lg:h-[536px] relative flex items-center justify-center">
             {product.image ? (
@@ -37,8 +49,8 @@ export function ProductDetailHero({
           </div>
         </div>
 
-        <div className="w-full lg:max-w-[642px] flex-grow flex flex-col pt-0 gap-[28px]">
-          <div className="w-full">
+        <div className="w-full lg:max-w-[642px] flex-grow flex flex-col pt-0 gap-[28px] ">
+          <div className="w-full hidden lg:block">
             <Breadcrumb
               items={[
                 { label: "Categories", href: "/products" },
@@ -51,7 +63,7 @@ export function ProductDetailHero({
           </div>
 
           <div>
-            <h2 className="text-[28px] md:text-[32px] font-sans font-bold text-text-dark leading-[1.12] tracking-[-0.01em] mb-[24px]">
+            <h2 className="text-[28px] md:text-[32px] font-sans font-bold text-text-dark leading-[1.12] tracking-[-0.01em] lg:mb-[24px] xl:mt-10">
               {product.name}
             </h2>
             <p className="text-[16px] md:text-[18px] font-sans font-normal text-c-414141 leading-[1.8] tracking-normal mb-0">

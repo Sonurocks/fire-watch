@@ -86,7 +86,7 @@ export const PRODUCTS: ProductItem[] = [
     description:
       "Advanced addressable fire detection solutions designed for precise monitoring, faster response, and flexible system integration.",
     image: HOME_ASSETS.PRODUCT_1,
-    link: "/products/intelligent",
+    link: "/products/intelligent-system",
     isDark: true,
   },
   {
@@ -95,7 +95,7 @@ export const PRODUCTS: ProductItem[] = [
     description:
       "Reliable fire detection systems designed to provide dependable monitoring and straightforward protection for a wide range of applications.",
     image: HOME_ASSETS.PRODUCT_2,
-    link: "/products/conventional",
+    link: "/products/conventional-system",
     isDark: false,
   },
   {
@@ -104,7 +104,7 @@ export const PRODUCTS: ProductItem[] = [
     description:
       "Specialized releasing systems designed to detect fire conditions and support the controlled activation of fixed firefighting installations.",
     image: HOME_ASSETS.PRODUCT_3,
-    link: "/products/gas-releasing",
+    link: "/products/gas-releasing-system",
     isDark: false,
   },
 ];

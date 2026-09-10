@@ -40,12 +40,12 @@ export default function LatestNews() {
                 <p className="text-[15px] xl:text-[16px] leading-[1.6] mb-6 line-clamp-4 text-text-muted group-hover:text-white/90 transition-colors duration-300">
                   {item.description}
                 </p>
-                <Link
+                {/* <Link
                   href={item.link}
                   className="mt-auto inline-flex items-center gap-2 font-medium font-helvetica text-[16px] leading-[32px] tracking-[0.02em] transition-colors duration-300 text-primary hover:text-primary-hover group-hover:text-white group-hover:hover:text-gray-200"
                 >
                   Read More <BsArrowRight className="text-lg" />
-                </Link>
+                </Link> */}
               </div>
             </div>
           ))}
