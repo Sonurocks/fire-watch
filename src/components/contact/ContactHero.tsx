@@ -9,7 +9,7 @@ export default function ContactHero() {
       description={CONTACT_HERO_DATA.description}
       bgImage={CONTACT_ASSETS.HERO_BG}
       heightClass="min-h-[500px] lg:min-h-0 lg:h-[840px]"
-      overlayClass="bg-black/30"
+      // overlayClass="bg-black/30"
     />
   );
 }

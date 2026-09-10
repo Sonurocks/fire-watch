@@ -60,7 +60,7 @@ export const MEET_OUR_TEAM_DATA: MeetOurTeamData = {
     },
     {
       id: "biswarub",
-      name: "Biswarub Chakraborty",
+      name: "Biswarup Chakraborty",
       role: "Sales Account Manager",
       email: "bchakraborty@fire-watch.co",
       image: TEAM_ASSETS.MEMBER_BISWARUB,

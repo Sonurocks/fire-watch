@@ -18,8 +18,7 @@ export default function GridCard({
   buttonText = "View More",
 }: GridCardProps) {
   return (
-    <Link
-      href={href}
+    <div
       className="group block bg-c-f1f1f1 rounded-[10px] transition-all duration-300 relative overflow-hidden h-[389px] w-full max-w-[328px] mx-auto "
     >
       {/* Top Left Number */}
@@ -52,8 +51,10 @@ export default function GridCard({
         <h3 className="font-medium text-sm lg:text-[15px] font-host text-text-dark line-clamp-2 pr-2">
           {title}
         </h3>
-        <ArrowHoverButton text={buttonText} className="flex-shrink-0" />
+        <Link href={href}>
+          <ArrowHoverButton text={buttonText} className="flex-shrink-0" />
+        </Link>
       </div>
-    </Link>
+    </div>
   );
 }

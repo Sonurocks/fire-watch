@@ -12,7 +12,7 @@ export default function OurMission() {
           src={ABOUT_ASSETS.MISSION_BG}
           alt="Our Mission Background"
           fill
-          className="object-cover object-center"
+          className="w-full object-cover object-[75%_center] md:object-center"
           priority
         />
 
@@ -23,7 +23,10 @@ export default function OurMission() {
       <div className="relative z-10 mx-auto w-full px-5 pb-16 pt-16 md:px-[40px] lg:px-[56px] lg:pb-[95px] lg:pt-[95px]">
         {/* Heading Content */}
         <div className="mx-auto flex w-full max-w-[762px] flex-col items-center gap-4 text-center">
-          <SectionLabel color="text-white/90" className="font-host !font-semibold !tracking-[0.15em] !text-[13px] md:!text-[13px] lg:!text-[13px]">
+          <SectionLabel
+            color="text-white/90"
+            className="font-host !font-semibold !tracking-[0.15em] !text-[13px] md:!text-[13px] lg:!text-[13px]"
+          >
             {OUR_MISSION_DATA.label}
           </SectionLabel>
 
@@ -42,7 +45,7 @@ export default function OurMission() {
             <div
               key={card.id}
               className="
-                group relative flex w-full h-[220px] md:h-[200px] lg:h-[220px] xl:h-[265px] max-w-[340px] md:max-w-full
+                group relative flex w-full h-[150px] md:h-[200px] lg:h-[220px] xl:h-[265px] max-w-[342px] md:max-w-full
                 cursor-pointer items-center justify-center
                 rounded-[30px] lg:rounded-[20px] xl:rounded-[30px]
                 bg-card-light/70

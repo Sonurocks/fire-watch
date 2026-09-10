@@ -112,7 +112,7 @@ export default function ProtectingGlobe() {
 
       <div className="relative z-10 w-full px-5 md:px-[40px] lg:px-[56px] pb-12 lg:pb-[62px] pt-[200px] lg:pt-[493px] pointer-events-none">
         <div className="flex flex-col gap-[16px] max-w-[562px] pointer-events-auto">
-          <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-white leading-[1.16] tracking-[-0.01em]">
+          <h2 className="text-[30px] md:text-[36px] lg:text-[48px] font-medium font-helvetica text-white leading-[1.16] tracking-[-0.01em] md:whitespace-nowrap">
             {GLOBE_DATA.title}
           </h2>
           <p className="text-base md:text-[18px] font-normal font-helvetica text-text-gray-light leading-[1.6] tracking-[-0.01em]">

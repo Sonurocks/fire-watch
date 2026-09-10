@@ -15,15 +15,15 @@ export function ProductDownloads({ documents }: ProductDownloadsProps) {
           DOWNLOAD
         </h3>
         
-        <div className="flex flex-wrap justify-center lg:justify-between gap-[24px] lg:gap-0">
+        <div className="flex flex-wrap justify-center md:justify-start lg:justify-between gap-[24px] lg:gap-0">
           {documents.map((doc, idx) => (
             <div
               key={idx}
-              className="w-full sm:w-[420px] h-[353px] rounded-[20px] border-[1.4px] border-c-d5d5d5 bg-white flex flex-col px-[25px] shrink-0"
+              className="w-full md:w-[calc(50%-12px)] xl:w-[420px] max-w-[420px] min-h-[353px] rounded-[20px] border-[1.4px] border-c-d5d5d5 bg-white flex flex-col px-[25px] shrink-0"
             >
               <div className="mt-[28px] mx-auto w-[79px] h-[105px] relative shrink-0">
                 <Image
-                  src="/assets/product/pdflogo.png"
+                  src="/assets/product/pdflogo-v2.webp"
                   alt="PDF Icon"
                   fill
                   className="object-contain"
@@ -31,7 +31,7 @@ export function ProductDownloads({ documents }: ProductDownloadsProps) {
                 />
               </div>
 
-              <div className="mt-[17px] flex flex-col gap-[16px] max-w-[279px]">
+              <div className="mt-[17px] mb-[30px] flex flex-col gap-[16px] max-w-[279px]">
                 <h4 className="text-[22px] font-bold text-black font-sans leading-tight line-clamp-2">
                   {doc.title}
                 </h4>

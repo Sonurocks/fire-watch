@@ -40,12 +40,12 @@ export default function MeetOurTeam() {
                 <h3 className="text-[16px] lg:text-[20px] font-medium font-helvetica text-text-dark leading-[1.44] lg:leading-[1.48] tracking-[-0.01em]">
                   {member.name}
                 </h3>
-                <p className="text-xs md:text-[15px] font-normal font-helvetica text-text-muted leading-[22px] tracking-[-0.01em]">
+                <p className="text-[15px] md:text-[17px] font-normal font-host text-text-muted leading-[22px] tracking-[-0.01em] leading-[1.6]">
                   {member.role}
                 </p>
                 <a
                   href={`mailto:${member.email}`}
-                  className="text-xs md:text-[16px] font-normal font-host text-c-2b2b2b hover:text-brand-red transition-colors leading-[1.6] tracking-[-0.01em] break-all"
+                  className="text-[14px] md:text-[16px] font-normal font-host text-c-2b2b2b hover:text-brand-red transition-colors leading-[1.6] tracking-[-0.01em] break-all"
                 >
                   {member.email}
                 </a>

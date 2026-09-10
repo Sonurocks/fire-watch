@@ -25,7 +25,9 @@ export default function ContactSection() {
                 key={item.id}
                 className={[
                   "flex flex-col min-w-0",
-                  index === 0 ? "sm:flex-[1.4] lg:flex-none xl:flex-[1.3]" : "sm:flex-1 lg:flex-none xl:flex-1",
+                  index === 0
+                    ? "sm:flex-[1.4] lg:flex-none xl:flex-[1.3]"
+                    : "sm:flex-1 lg:flex-none xl:flex-1",
                 ].join(" ")}
               >
                 <div className="flex items-center gap-1.5 mb-2 flex-nowrap">

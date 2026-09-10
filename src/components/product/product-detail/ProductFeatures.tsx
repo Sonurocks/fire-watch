@@ -17,7 +17,7 @@ export function ProductFeatures({ features }: ProductFeaturesProps) {
           {features.map((feature, idx) => (
             <div key={idx} className="flex flex-row items-start gap-[20px]">
               <BsCheckCircleFill className="text-primary mt-[4px] shrink-0" size={24} />
-              <p className="text-[16px] md:text-[18px] font-sans font-medium text-c-525252 leading-[1.4] flex-grow">
+              <p className="text-[16px] md:text-[18px] font-helvetica font-medium text-[#525252] leading-[1.4] flex-grow">
                 {feature}
               </p>
             </div>

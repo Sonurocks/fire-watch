@@ -49,7 +49,7 @@ export default function ContactFormCard() {
             src={CONTACT_ASSETS.FORM_IMG}
             alt="Fire Watch Contact Form Image"
             fill
-            className="object-cover object-center"
+            className="object-cover object-[100%_50%]"
             quality={100}
             sizes="566px"
           />

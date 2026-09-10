@@ -20,10 +20,9 @@ export const ProductGrid = ({
           ? buildHref(product)
           : product.url.replace("https://fire-watch.co", "");
         return (
-          <Link
+          <div
             key={product.id}
-            href={href}
-            className="group flex flex-col bg-c-f4f4f4 rounded-[22px] p-[12px] transition-all duration-300 w-full h-[600px] outline outline-1 outline-transparent hover:outline-c-e5e5e5"
+            className="group flex flex-col bg-[#F4F4F4] rounded-[22px] p-[12px] transition-all duration-300 w-full h-[600px] outline outline-1 outline-transparent hover:outline-c-e5e5e5"
           >
             <div className="relative w-full h-[224px] bg-white rounded-[16px] flex items-center justify-center px-[8px] shrink-0 overflow-hidden">
               <div className="absolute top-[16px] left-[16px] text-[16px] font-medium font-host text-c-8d2b22 z-10">
@@ -57,10 +56,12 @@ export const ProductGrid = ({
               </p>
               
               <div className="mt-auto flex justify-start">
-                <ArrowHoverButton text="View More" />
+                <Link href={href}>
+                  <ArrowHoverButton text="View More" />
+                </Link>
               </div>
             </div>
-          </Link>
+          </div>
         );
       })}
       {products.length === 0 && (
