@@ -162,6 +162,9 @@
   --color-c-2b2b2b: #2b2b2b;
   --color-c-f0f0f0: #f0f0f0;
   --color-c-990000: #990000;
+
+  --color-contact-card-from: #F70D0D;
+  --color-contact-card-to: #7D1C1C;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "migrate:images": "node scripts/download-product-images.mjs"
+    "migrate:images": "node scripts/download-product-images.mjs",
+    "migrate:pdfs": "node scripts/download-product-pdfs.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.2.0",

@@ -1,6 +1,7 @@
 export interface Document {
   title: string;
   url: string;
+  localUrl?: string;
 }
 
 export interface ProductImage {

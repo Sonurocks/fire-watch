@@ -141,7 +141,7 @@
                 "alt": "linked in"
               }
             ],
-            "description": "Initially configured as a fire detection and alarm system, the flexibility of Taktis is such that it can be re-configured to realise many other control and indication applications, with direct integration into intelligent buildings. Available in four and eight slot variants, INFINITY ire control panel ranges from two to 16 detection loops. INFINITY can network up to 128 panels, making it ideal for the largest sites such as schools, hospitals, multi-site retail/ supermarkets, critical infrastructure and major commercial and industrial facilities. As a truly open protocol panel it offers installers and their customers maximum flexibility in systems\u2019 design, site-customization and in the third-party devices that they use. Not only does INFINITY provide solutions to the most technically challenging applications in life safety, it will also deliver added value, market advantage and a competitive edge to your business.",
+            "description": "Initially configured as a fire detection and alarm system, the flexibility of Taktis is such that it can be re-configured to realise many other control and indication applications, with direct integration into intelligent buildings. Available in four and eight slot variants, INFINITY ire control panel ranges from two to 16 detection loops. INFINITY can network up to 128 panels, making it ideal for the largest sites such as schools, hospitals, multi-site retail/ supermarkets, critical infrastructure and major commercial and industrial facilities. As a truly open protocol panel it offers installers and their customers maximum flexibility in systems’ design, site-customization and in the third-party devices that they use. Not only does INFINITY provide solutions to the most technically challenging applications in life safety, it will also deliver added value, market advantage and a competitive edge to your business.",
             "features": [
               "UL864 (10th edition) Listed and FM Approved",
               "2 to 8 loop or 2 to 16 loop versions",
@@ -150,11 +150,11 @@
               "5.25 A or 10.25 A power supply options",
               "3 programmable inputs and 5 programmable relay outputs",
               "7 inch, full-color resistive touch screen with intuitive user interface",
-              "Up to 24 programmable soft \u201cfunction keys\u201d",
+              "Up to 24 programmable soft “function keys”",
               "Hard-wired ire and trouble routing inputs and outputs",
               "Modular and expandable electronics",
               "400 subaddress points per loop (800 per loop module)",
-              "Option to \u201cinvert\u201d inputs and outputs",
+              "Option to “invert” inputs and outputs",
               "5000 programmable cause and efects; over 50,000 inputs and outputs",
               "Can be networked with programmable functionality",
               "Programming via USB port to PC or memory stick",
@@ -163,15 +163,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705010e0821d.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705010e0821d.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/infinity-ul-fire-analogue-addressable-control-panel--data-sheets.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb2139f2a26.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb2139f2a26.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/infinity-ul-fire-analogue-addressable-control-panel--ul-certificate.pdf"
               },
               {
                 "title": "UL Confirmation Letters (All Infinity Models)",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708169c5767f.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708169c5767f.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/infinity-ul-fire-analogue-addressable-control-panel--ul-confirmation-letters-all-infinity-models.pdf"
               }
             ],
             "breadcrumb": [],
@@ -310,15 +313,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704ff73791db.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704ff73791db.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-fw-analogue-1-or-2-loops-fire-control-panel-fw0850-40-fw0860-10--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670818c14624c.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670818c14624c.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-fw-analogue-1-or-2-loops-fire-control-panel-fw0850-40-fw0860-10--ul-confirmation-letters.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463565872f3.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463565872f3.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-fw-analogue-1-or-2-loops-fire-control-panel-fw0850-40-fw0860-10--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -447,7 +453,7 @@
                 "alt": "linked in"
               }
             ],
-            "description": "The large, graphic LCD and high brightness LED indicators duplicate the indications on the ORCA fire alarm control panel at up to 15 additional locations via a simple, two-wire serial data connection. Housed in a small enclosure, it is ideal for installations where a large control panel would be detrimental to decor such as entrance halls. Up to 15 ORCAVIEW annunciators can be connected to each control panel on the elite network making ORCAVIEW ideal where multiple points of indication and/or control are required, such as nurse\u2019s stations or retail units.",
+            "description": "The large, graphic LCD and high brightness LED indicators duplicate the indications on the ORCA fire alarm control panel at up to 15 additional locations via a simple, two-wire serial data connection. Housed in a small enclosure, it is ideal for installations where a large control panel would be detrimental to decor such as entrance halls. Up to 15 ORCAVIEW annunciators can be connected to each control panel on the elite network making ORCAVIEW ideal where multiple points of indication and/or control are required, such as nurse’s stations or retail units.",
             "features": [
               "Available in Red or Grey",
               "Up to 15 annunciators can be connected to each ORCA ire control panel",
@@ -466,19 +472,23 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc462477905.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc462477905.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-view-fw1172-10-fw1172-40--data-sheets.pdf"
               },
               {
                 "title": "FW1172-10",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708191fc81b5.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708191fc81b5.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-view-fw1172-10-fw1172-40--fw1172-10.pdf"
               },
               {
                 "title": "FW1172-40",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708194045b74.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6708194045b74.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-view-fw1172-10-fw1172-40--fw1172-40.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635b5bc306.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635b5bc306.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-view-fw1172-10-fw1172-40--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -591,37 +601,42 @@
                 "alt": "linked in"
               }
             ],
-            "description": "All indicators can be configured to operate upon any event type and at point, zone or group level via the powerful and intuitive Loop Explorer configuration program. ORCAMATRIX can be supplied with or without common LEDs and controls. Optional LED\u2019s indicate Power on, Fire, Trouble and Disablement and optional controls are for Alarm Silence, Buzzer Silence, Lamp Test and Reset.",
+            "description": "All indicators can be configured to operate upon any event type and at point, zone or group level via the powerful and intuitive Loop Explorer configuration program. ORCAMATRIX can be supplied with or without common LEDs and controls. Optional LED’s indicate Power on, Fire, Trouble and Disablement and optional controls are for Alarm Silence, Buzzer Silence, Lamp Test and Reset.",
             "features": [
               "Available in Red or Grey",
-              "Up to 504 LED\u2019s can be controlled from any ORCA panel",
+              "Up to 504 LED’s can be controlled from any ORCA panel",
               "Select up to 12 printed colours ( not including background and building outline)",
               "Available in a range of standard enclosures to suit any applications.",
               "Custom sized units can be made upon request",
-              "Choice of Red, Green or Yellow LED\u2019s",
-              "Choice of Red, Green or Yellow LED\u2019s ORCAMATRIX can easily be upgraded on site with minimal cost and efort",
+              "Choice of Red, Green or Yellow LED’s",
+              "Choice of Red, Green or Yellow LED’s ORCAMATRIX can easily be upgraded on site with minimal cost and efort",
               "UL 864 edition listed"
             ],
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc46a99d94f.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc46a99d94f.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-matrix-analogue-fire-repeater-ul-fm-approved--data-sheets.pdf"
               },
               {
                 "title": "Model FW130X-YYY",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819d0bb0a3.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819d0bb0a3.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-matrix-analogue-fire-repeater-ul-fm-approved--model-fw130x-yyy.pdf"
               },
               {
                 "title": "Model FW132X-YYY",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819e6b3f8e.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670819e6b3f8e.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-matrix-analogue-fire-repeater-ul-fm-approved--model-fw132x-yyy.pdf"
               },
               {
                 "title": "Model FW133X-YYY",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67081a0eba5ed.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67081a0eba5ed.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-matrix-analogue-fire-repeater-ul-fm-approved--model-fw133x-yyy.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635f7200ed.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674635f7200ed.pdf",
+                "localUrl": "/documents/products/intelligent-system/control-panels/orca-matrix-analogue-fire-repeater-ul-fm-approved--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -743,11 +758,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc470397b21.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fc470397b21.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/multi-criteria-detectors-smoke-heat-fw5050-350--data-sheets.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746369ba1ce0.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746369ba1ce0.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/multi-criteria-detectors-smoke-heat-fw5050-350--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -857,11 +874,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670509fcf180e.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670509fcf180e.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/smoke-detector-fw5050-250--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092feabe83b.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092feabe83b.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/smoke-detector-fw5050-250--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -946,7 +965,7 @@
                 "alt": "linked in"
               }
             ],
-            "description": "The FW Heat Detector has a molded white polycarbonate case with wind resistant smoke inlets. Inside the case, a printed circuit board holds the signal processing electronics The AR, BR, and CR variants contain a pair of matched negative temperature coefficient NTC thermistors that are mounted to the PCB in a way that one thermistor is exposed to give good thermal contact with the surrounding air while the other thermistor is thermally isolated. Under stable conditions both thermistors are in thermal equilibrium and have the same value of resistance\u0358 If the air temperature increases rapidly the resistance of the exposed thermistor becomes less than that of the insulated thermistor\u0358 The ratio of the resistance of the thermistors is monitored electronically and an alarm is initiated if the ratio exceeds and factory pre-set level\u0358. This feature determines the rate of rise response of the detector\u0358",
+            "description": "The FW Heat Detector has a molded white polycarbonate case with wind resistant smoke inlets. Inside the case, a printed circuit board holds the signal processing electronics The AR, BR, and CR variants contain a pair of matched negative temperature coefficient NTC thermistors that are mounted to the PCB in a way that one thermistor is exposed to give good thermal contact with the surrounding air while the other thermistor is thermally isolated. Under stable conditions both thermistors are in thermal equilibrium and have the same value of resistance͘ If the air temperature increases rapidly the resistance of the exposed thermistor becomes less than that of the insulated thermistor͘ The ratio of the resistance of the thermistors is monitored electronically and an alarm is initiated if the ratio exceeds and factory pre-set level͘. This feature determines the rate of rise response of the detector͘",
             "features": [
               "Ideal for environments that are dirty or smoky un der normal circumstances",
               "Can be used for applications where smoke detectors are unsuitable",
@@ -955,15 +974,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705019faed41.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6705019faed41.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/heat-detector-fw5500-450--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letter",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092fbeaa685.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67092fbeaa685.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/heat-detector-fw5500-450--ul-confirmation-letter.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746380841786.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746380841786.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/heat-detector-fw5500-450--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -971,7 +993,7 @@
           },
           {
             "id": 51,
-            "name": "BASE 4\u201d FW5000-210",
+            "name": "BASE 4” FW5000-210",
             "url": "https://fire-watch.co/product/51-base-4-fw5000-210",
             "image": "/assets/products/intelligent-system/sensors/base-4-fw5000-210.webp",
             "images": [
@@ -985,7 +1007,7 @@
               },
               {
                 "src": "https://fire-watch.co/storage/images/Product/images/Product_13241.jpg",
-                "alt": "BASE 4\u201d FW5000-210"
+                "alt": "BASE 4” FW5000-210"
               },
               {
                 "src": "https://fire-watch.co/site_assets/images/product/pdf.svg",
@@ -1041,15 +1063,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704432d56950.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704432d56950.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/base-4-fw5000-210--data-sheets.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670443560ba5d.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670443560ba5d.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/base-4-fw5000-210--ul-certificate.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709303c631b8.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709303c631b8.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/base-4-fw5000-210--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1138,25 +1163,28 @@
                 "alt": "linked in"
               }
             ],
-            "description": "All data is supplied subject to change without notice. Specifications are typical at 24 V, 73\u00b0F and 50% RH unless otherwise stated. Notes: Working voltage 17 V - 28 V dc (max dc voltage range) Digital communication (Discovery and CoreProtocol compatible) Modulation voltage 5 - 9 V peak to peak Single line circuit (SLC) Supervised Supervisory current 110 \u00b5A Surge current 0 mA Maximum current drawn 8.5 mA Maximum line impedance 50 \u03a9 Temperature range 32 \u00baF to 100 \u00baF (0\u00baC to 38\u00baC) Humidity (no condensing or icing) 10% to 93% RH Dimensions 4.0 in. (100 mm)diameter x 1.25 in. (32 mm) height Materials White flame-retardant polycarbonate 1. The isolator must be connected to a power limited circuit with a maximum loop current of continuous 1 A. For further information on the isolator refer to PP2090 - Short- circuit isolation. Available from www.fire-watch.co",
+            "description": "All data is supplied subject to change without notice. Specifications are typical at 24 V, 73°F and 50% RH unless otherwise stated. Notes: Working voltage 17 V - 28 V dc (max dc voltage range) Digital communication (Discovery and CoreProtocol compatible) Modulation voltage 5 - 9 V peak to peak Single line circuit (SLC) Supervised Supervisory current 110 µA Surge current 0 mA Maximum current drawn 8.5 mA Maximum line impedance 50 Ω Temperature range 32 ºF to 100 ºF (0ºC to 38ºC) Humidity (no condensing or icing) 10% to 93% RH Dimensions 4.0 in. (100 mm)diameter x 1.25 in. (32 mm) height Materials White flame-retardant polycarbonate 1. The isolator must be connected to a power limited circuit with a maximum loop current of continuous 1 A. For further information on the isolator refer to PP2090 - Short- circuit isolation. Available from www.fire-watch.co",
             "features": [
-              "\u2022 Detects wiring short-circuits using patented technology",
-              "\u2022 Minimizes disruption from short circuits",
-              "\u2022 Automatic de-isolation on short-circuit removal",
+              "• Detects wiring short-circuits using patented technology",
+              "• Minimizes disruption from short circuits",
+              "• Automatic de-isolation on short-circuit removal",
               "Up to 20 devices may be installed between isolators"
             ],
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442c474150.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442c474150.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-fw-55000-750--data-sheets.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442e789f96.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670442e789f96.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-fw-55000-750--ul-certificate.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930585c98f.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930585c98f.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-fw-55000-750--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1255,15 +1283,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704427690405.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704427690405.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-detector-base-fw45681-211--data-sheets.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670441e6c041e.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670441e6c041e.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-detector-base-fw45681-211--ul-certificate.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709306edfda6.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709306edfda6.pdf",
+                "localUrl": "/documents/products/intelligent-system/sensors/isolator-detector-base-fw45681-211--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1375,11 +1406,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc1eba706.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc1eba706.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-nac-module-fw4705-706--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670931196b4d1.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670931196b4d1.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-nac-module-fw4705-706--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1478,15 +1511,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedca30dce9.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedca30dce9.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-input-output-module-fw4705-703--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709310518261.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709310518261.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-input-output-module-fw4705-703--ul-confirmation-letters.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463839830ee.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67463839830ee.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-input-output-module-fw4705-703--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1576,11 +1612,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc8155b17.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedc8155b17.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-relay-output-module-fw4705-701--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930e9d601f.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930e9d601f.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-relay-output-module-fw4705-701--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1680,11 +1718,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedbeb48ae6.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedbeb48ae6.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-input-monitor-module-fw4705-700--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930cdcd29c.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930cdcd29c.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-input-monitor-module-fw4705-700--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1784,11 +1824,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedcd1b84c4.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedcd1b84c4.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-dual-input-monitor-module-fw4705-720--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930b623157.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670930b623157.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-dual-input-monitor-module-fw4705-720--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1889,7 +1931,8 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670453db87966.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670453db87966.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/ul-mini-monitor-module-fw705-600--data-sheets.pdf"
               }
             ],
             "breadcrumb": [],
@@ -1970,7 +2013,8 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67045328afb24.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67045328afb24.pdf",
+                "localUrl": "/documents/products/intelligent-system/modules/mini-monitor-module-fw705-600--data-sheets.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2076,15 +2120,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd57693ea.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd57693ea.pdf",
+                "localUrl": "/documents/products/intelligent-system/manual-pull-stations/dual-action-manual-call-point-fw56000-005--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709320a52e86.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709320a52e86.pdf",
+                "localUrl": "/documents/products/intelligent-system/manual-pull-stations/dual-action-manual-call-point-fw56000-005--ul-confirmation-letters.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674639b44b49a.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_674639b44b49a.pdf",
+                "localUrl": "/documents/products/intelligent-system/manual-pull-stations/dual-action-manual-call-point-fw56000-005--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2177,15 +2224,16 @@
             "features": [
               "Color: Red",
               "Weight: 88g",
-              "Length: 5.51\u201d (140 mm)",
-              "Width: 4.25\u201d (10 mm)",
-              "Depth: 1.77\u201d (45 mm)",
+              "Length: 5.51” (140 mm)",
+              "Width: 4.25” (10 mm)",
+              "Depth: 1.77” (45 mm)",
               "Warranty: 10 Years"
             ],
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67018a53b8b86.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67018a53b8b86.pdf",
+                "localUrl": "/documents/products/intelligent-system/manual-pull-stations/ul-manal-pull-station-backbox--data-sheets.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2284,14 +2332,15 @@
               "Single-Gang Mounting",
               "14 GA Plated Steel Backplate",
               "Single- and Dual-Action (Lift and Pull) Models",
-              "Operating Temperature: -40\u00b0F to 150\u00b0F, 85% RH",
+              "Operating Temperature: -40°F to 150°F, 85% RH",
               "14 to 22 AWG Wiring Terminals",
               "Manufactured in the USA"
             ],
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedda9d93e7.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedda9d93e7.pdf",
+                "localUrl": "/documents/products/intelligent-system/manual-pull-stations/manual-pull-station-fw-mps-1t-kl-fw-mps-1t-lpa--data-sheets.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2408,11 +2457,13 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd1150416.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fedd1150416.pdf",
+                "localUrl": "/documents/products/intelligent-system/notifications/ul-open-area-sounder-vad-fw58000-011--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709322aa719d.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6709322aa719d.pdf",
+                "localUrl": "/documents/products/intelligent-system/notifications/ul-open-area-sounder-vad-fw58000-011--ul-confirmation-letters.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2566,15 +2617,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704feec0eb3b.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6704feec0eb3b.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/plus-fw-cp--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters (All Models)",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670932a021c56.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670932a021c56.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/plus-fw-cp--ul-confirmation-letters-all-models.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746367451fc7.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746367451fc7.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/plus-fw-cp--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2708,15 +2762,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670448903824c.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670448903824c.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/conventional-annunciator-fw1885-18-fw1885-48--data-sheets.pdf"
               },
               {
                 "title": "Model FW1885-18",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093167da2a2.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093167da2a2.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/conventional-annunciator-fw1885-18-fw1885-48--model-fw1885-18.pdf"
               },
               {
                 "title": "Model FW1885-48",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093176369d9.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67093176369d9.pdf",
+                "localUrl": "/documents/products/conventional-system/control-panels/conventional-annunciator-fw1885-18-fw1885-48--model-fw1885-48.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2877,7 +2934,8 @@
             "documents": [
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb264e213f9.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_66fb264e213f9.pdf",
+                "localUrl": "/documents/products/gas-releasing-system/addressable-control-panel/fw-xt-fw-multi-area-releasing-control-units--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],
@@ -2996,7 +3054,7 @@
             ],
             "description": "All models provide high brightness, LED indication of Manual Only, Automatic and Manual, Abort Operated, Disabled, Imminent and Released conditions. Models are also available with zonal ire indicators and a common trouble indicator. For systems where local control of the Automatic/Manual mode and or a Manual extinguishant release control are required, units are available with these controls fitted. All models have supervised inputs for the remote connection of Automatic/Manual mode and abort switches. All units contain a large, LED display that shows a countdown of the time remaining until release in seconds. Up to seven PLUS FW-SI status units can be connected to the FW PLUS -XT serial bus and require just two cores for data and two cores for power. Once connected, status units are supervised, and the PLUS FW -XT control panel will indicate a trouble condition should any unit become disconnected.",
             "features": [
-              "High brightness LED\u2019s",
+              "High brightness LED’s",
               "Detailed indication of the status of the Control Panel",
               "Supervised data connection",
               "Countdown shows time remaining until release",
@@ -3013,7 +3071,8 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670452d49d982.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670452d49d982.pdf",
+                "localUrl": "/documents/products/gas-releasing-system/addressable-control-panel/plus-fw-si-fw1823-10-fw1832-10--data-sheets.pdf"
               }
             ],
             "breadcrumb": [],
@@ -3164,15 +3223,18 @@
             "documents": [
               {
                 "title": "Data Sheets",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67050a432f170.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_67050a432f170.pdf",
+                "localUrl": "/documents/products/gas-releasing-system/conventional-control-panel/plus-xt-fw1810-12-fw1810-13-fw1810-43--data-sheets.pdf"
               },
               {
                 "title": "UL Confirmation Letters (All Models)",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670933207b94c.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_670933207b94c.pdf",
+                "localUrl": "/documents/products/gas-releasing-system/conventional-control-panel/plus-xt-fw1810-12-fw1810-13-fw1810-43--ul-confirmation-letters-all-models.pdf"
               },
               {
                 "title": "UL Certificate",
-                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746362dbc8f1.pdf"
+                "url": "https://fire-watch.co/storage/images/ProductFile/ProductFile_6746362dbc8f1.pdf",
+                "localUrl": "/documents/products/gas-releasing-system/conventional-control-panel/plus-xt-fw1810-12-fw1810-13-fw1810-43--ul-certificate.pdf"
               }
             ],
             "breadcrumb": [],

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Document } from "../types";
+import { getDocumentUrl } from "@/lib/productDocuments";
 
 interface ProductDownloadsProps {
   documents: Document[] | undefined;
@@ -41,9 +42,9 @@ export function ProductDownloads({ documents }: ProductDownloadsProps) {
               </div>
 
               <a
-                href={doc.url}
+                href={getDocumentUrl(doc)}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="mt-auto mb-[25px] w-full h-[52px] bg-primary text-white flex justify-center items-center font-sans font-semibold text-[16px] rounded-[6px] transition-colors hover:bg-c-8d2b22"
               >
                 Download
