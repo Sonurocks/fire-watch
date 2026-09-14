@@ -1,3 +1,5 @@
+import type { BreadcrumbItem } from "@/components/shared/Breadcrumb";
+
 export interface Document {
   title: string;
   url: string;
@@ -19,7 +21,7 @@ export interface Product {
   documents: Document[];
   images?: ProductImage[];
   listingDescription?: string;
-  breadcrumb?: any[];
+  breadcrumb?: BreadcrumbItem[];
 }
 
 export interface SubCategory {

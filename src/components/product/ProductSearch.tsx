@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import SearchInput from "@/ui/inputs/SearchInput";
-import { searchProducts, SearchResult } from "@/lib/productSearch";
+import { searchProducts } from "@/lib/productSearch";
 import { PRODUCT_UI_CONSTANTS } from "./constants";
 
 interface ProductSearchProps {
@@ -26,23 +26,13 @@ export default function ProductSearch({
   hideImage
 }: ProductSearchProps) {
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<SearchResult[]>([]);
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
 
-  useEffect(() => {
-    if (query.trim()) {
-      const searchRes = searchProducts(query);
-      setResults(searchRes);
-      setIsOpen(true);
-      setSelectedIndex(-1);
-    } else {
-      setResults([]);
-      setIsOpen(false);
-      setSelectedIndex(-1);
-    }
+  const results = React.useMemo(() => {
+    return query.trim() ? searchProducts(query) : [];
   }, [query]);
 
   
@@ -83,7 +73,17 @@ export default function ProductSearch({
     <div className={`relative w-full ${containerClassName || ""}`} ref={wrapperRef}>
       <SearchInput
         value={query}
-        onChange={(e) => setQuery(e.target.value)}
+        onChange={(e) => {
+          const val = e.target.value;
+          setQuery(val);
+          if (val.trim()) {
+            setIsOpen(true);
+            setSelectedIndex(-1);
+          } else {
+            setIsOpen(false);
+            setSelectedIndex(-1);
+          }
+        }}
         onKeyDown={handleKeyDown}
         onFocus={() => {
           if (query.trim()) setIsOpen(true);

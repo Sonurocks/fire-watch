@@ -19,14 +19,14 @@ function downloadToBuffer(url, redirectCount = 0) {
     if (redirectCount > 5) {
       return reject(new Error(`Too many redirects for ${url}`));
     }
-    const client = url.startsWith("https:
+    const client = url.startsWith("https:") ? https : http;
     client
       .get(url, { headers: { "User-Agent": "FireWatch-PDF-Migrator/1.0" } }, (res) => {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
           let redirectUrl = res.headers.location;
           if (redirectUrl.startsWith("/")) {
             const parsed = new URL(url);
-            redirectUrl = `${parsed.protocol}
+            redirectUrl = `${parsed.protocol}//${parsed.host}${redirectUrl}`;
           }
           return downloadToBuffer(redirectUrl, redirectCount + 1)
             .then(resolve)

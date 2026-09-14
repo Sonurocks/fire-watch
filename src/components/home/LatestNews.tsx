@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-import { BsArrowRight } from "react-icons/bs";
 import { NEWS_ITEMS, LATEST_NEWS_HEADER } from "./constants";
 
 export default function LatestNews() {

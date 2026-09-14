@@ -1,7 +1,7 @@
 import React from "react";
 import SubCategoryHero from "./SubCategoryHero";
 import { SubCategoryGrid } from "./SubCategoryGrid";
-import { PRODUCTS } from "@/components/home/constants";
+
 import { SubCategoryIndexProps } from "./types";
 import { SUBCATEGORY_UI_CONSTANTS } from "./constants";
 import { getCategoryDescription } from "@/data/categoryMeta";

@@ -1,7 +1,6 @@
 import { ProductDetailHero } from "./ProductDetailHero";
 import { ProductFeatures } from "./ProductFeatures";
 import { ProductDownloads } from "./ProductDownloads";
-import { PRODUCT_DETAIL_CONSTANTS } from "./constants";
 import { ProductDetailPageProps } from "./types";
 
 export default function ProductDetailIndex({

@@ -1,8 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
 import SectionLabel from "@/ui/typography/SectionLabel";
 import Button from "@/ui/buttons/Button";
-import { BsArrowRight } from "react-icons/bs";
 import { PRODUCTS } from "./constants";
 import ProductCard from "@/components/shared/ProductCard";
 

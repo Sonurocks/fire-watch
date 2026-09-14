@@ -36,6 +36,9 @@ export default function Modal({
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    // This is the standard React pattern for avoiding SSR hydration mismatch on portals.
+    // The state is explicitly set post-hydration to allow createPortal to run securely on the client.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 

@@ -1,13 +1,11 @@
 "use client";
 
-import React, { useState, useRef } from "react";
+import React from "react";
 import Image from "next/image";
 import { CONTACT_ASSETS } from "@/assets";
 import ContactForm from "./ContactForm";
 
 export default function ContactFormCard() {
-  const formRef = useRef<HTMLFormElement>(null);
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
     <section className="relative w-full flex justify-center items-center py-12 md:py-16 lg:py-[80px] px-5 flex-col md:px-[40px] lg:px-[56px] overflow-hidden min-h-[830px]">
