@@ -1,81 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/fonts/HelveticaNeue-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/fonts/HelveticaNeue-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/fonts/HelveticaNeue-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Montserrat";
-  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Host Grotesk";
-  src: url("/fonts/HostGrotesk-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Host Grotesk";
-  src: url("/fonts/HostGrotesk-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Host Grotesk";
-  src: url("/fonts/HostGrotesk-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Host Grotesk";
-  src: url("/fonts/HostGrotesk-Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-display: swap;
-}
 
 :root {
   --background: #ffffff;
@@ -135,9 +59,9 @@
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-helvetica: "Helvetica Neue", sans-serif;
-  --font-montserrat: "Montserrat", sans-serif;
-  --font-host: "Host Grotesk", sans-serif;
+  --font-helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-montserrat: var(--font-montserrat), "Montserrat", sans-serif;
+  --font-host: var(--font-host-grotesk), "Host Grotesk", sans-serif;
 
   --color-c-545454: #545454;
   --color-c-565656: #565656;

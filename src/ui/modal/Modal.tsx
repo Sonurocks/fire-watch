@@ -13,6 +13,7 @@ export interface ModalProps {
   children: React.ReactNode;
   size?: "sm" | "md" | "lg" | "xl" | "full";
   showCloseButton?: boolean;
+  closeButtonClassName?: string;
   zIndex?: number;
   maxWidth?: string;
   className?: string;
@@ -27,6 +28,7 @@ export default function Modal({
   children,
   size = "lg",
   showCloseButton = true,
+  closeButtonClassName = "text-modal-text-muted",
   zIndex = 50,
   maxWidth,
   className = "",
@@ -105,7 +107,7 @@ export default function Modal({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.2 }}
-            onClick={onClose}
+            onPointerDown={onClose}
             className="fixed inset-0 bg-black/75 backdrop-blur-sm z-0"
             aria-hidden="true"
           />
@@ -144,7 +146,7 @@ export default function Modal({
                   <button
                     onClick={onClose}
                     type="button"
-                    className="absolute top-3 right-3 sm:top-5 sm:right-5 md:top-[25px] md:right-[24px] w-[36px] h-[36px] sm:w-[44px] sm:h-[44px] md:w-[55px] md:h-[55px] text-modal-text-muted rounded-full flex items-center justify-center cursor-pointer"
+                    className={`absolute top-3 right-3 sm:top-5 sm:right-5 md:top-[25px] md:right-[24px] w-[36px] h-[36px] sm:w-[44px] sm:h-[44px] md:w-[55px] md:h-[55px] rounded-full flex items-center justify-center cursor-pointer ${closeButtonClassName}`}
                     aria-label="Close modal"
                   >
                     <FiX className="text-[20px] sm:text-[24px] md:text-[28px]" />

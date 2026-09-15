@@ -22,7 +22,7 @@ export default function SubmitButton({
         rounded-[6px]
         bg-primary hover:bg-c-990000
         text-white font-helvetica font-medium text-[16px] leading-[24px]
-        transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.99]
+        transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.99] cursor-pointer
         disabled:opacity-70 disabled:cursor-not-allowed
         ${className}
       `}

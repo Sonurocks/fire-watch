@@ -15,7 +15,6 @@ export default function ContactFormCard() {
           alt="Contact Section Background"
           fill
           className="object-cover object-top"
-          priority
           quality={100}
         />
       </div>
