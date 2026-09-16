@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "analyze": "set ANALYZE=true && next build",
     "migrate:images": "node scripts/download-product-images.mjs",
     "migrate:pdfs": "node scripts/download-product-pdfs.mjs"
   },
@@ -21,6 +22,7 @@
     "sharp": "^0.35.4"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^16.3.5",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
