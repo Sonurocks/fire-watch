@@ -6,6 +6,7 @@ import InputField from "@/ui/inputs/InputField";
 import TextareaField from "@/ui/inputs/TextareaField";
 import SubmitButton from "@/ui/buttons/SubmitButton";
 import ThankYouModal from "./ThankYouModal";
+import { validateField, ContactFormData } from "@/lib/contactValidation";
 
 export interface ContactFormProps {
   variant?: "modal" | "card";
@@ -32,37 +33,60 @@ export default function ContactForm({
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<FormStatus>("idle");
   const [isSuccessModalOpen, setIsSuccessModalOpen] = useState(false);
+  const [hasSubmitted, setHasSubmitted] = useState(false);
   const isSubmittingRef = useRef(false);
 
   const validate = () => {
     const newErrors: Record<string, string> = {};
+    const fields = ["fullName", "email", "phone", "inquiryType", "message"] as Array<keyof ContactFormData>;
 
-    if (!formData.fullName.trim()) {
-      newErrors.fullName = "Full Name is required";
-    }
-
-    if (!formData.email.trim()) {
-      newErrors.email = "Email Address is required";
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email.trim())) {
-      newErrors.email = "Please enter a valid email address";
-    }
-
-    if (!formData.message.trim()) {
-      newErrors.message = "Detailed Message is required";
-    }
+    fields.forEach((key) => {
+      let cleaned = formData[key];
+      if (key === "fullName" || key === "inquiryType") {
+        cleaned = cleaned.replace(/\s+/g, " ").trim();
+      } else {
+        cleaned = cleaned.trim();
+      }
+      
+      const errorMsg = validateField(key, cleaned);
+      if (errorMsg) {
+        newErrors[key] = errorMsg;
+      }
+    });
 
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    const { name, value } = e.target;
+    let { name, value } = e.target;
+
+    if (name === "phone") {
+      value = value.replace(/[^\d+]/g, "");
+    }
+
     setFormData((prev) => ({ ...prev, [name]: value }));
 
-    if (errors[name]) {
-      setErrors((prev) => ({ ...prev, [name]: "" }));
+    if (hasSubmitted || errors[name]) {
+      let cleaned = value;
+      if (name === "fullName" || name === "inquiryType") {
+        cleaned = cleaned.replace(/\s+/g, " ").trim();
+      } else {
+        cleaned = cleaned.trim();
+      }
+      
+      const errorMsg = validateField(name, cleaned);
+      if (errorMsg) {
+        setErrors((prev) => ({ ...prev, [name]: errorMsg }));
+      } else {
+        setErrors((prev) => {
+          const newErrors = { ...prev };
+          delete newErrors[name];
+          return newErrors;
+        });
+      }
     }
 
     if (status === "error") {
@@ -72,8 +96,8 @@ export default function ContactForm({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setHasSubmitted(true);
 
-    // Prevent duplicate submissions
     if (isSubmittingRef.current || status === "submitting") return;
 
     if (!validate()) return;
@@ -117,7 +141,7 @@ export default function ContactForm({
       } else {
         setStatus("error");
         toast.error(
-          result.message || "Failed to send message. Please try again."
+          result.message || "Failed to send message. Please try again.",
         );
       }
     } catch {
@@ -137,119 +161,126 @@ export default function ContactForm({
     <>
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-[952px] flex flex-col gap-5 md:gap-[24px] text-left"
+        className="w-full flex flex-col gap-5 md:gap-[24px] text-left"
         noValidate
       >
-      {/* Honeypot — hidden from real users, catches bots */}
-      <input
-        type="text"
-        name="botcheck"
-        value={honeypot}
-        onChange={(e) => setHoneypot(e.target.value)}
-        tabIndex={-1}
-        autoComplete="new-password"
-        aria-hidden="true"
-        style={{
-          position: "absolute",
-          left: "-9999px",
-          width: 0,
-          height: 0,
-          opacity: 0,
-          overflow: "hidden",
-          pointerEvents: "none",
-        }}
-      />
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-[24px] w-full">
-        <InputField
-          label="FULL NAME"
-          name="fullName"
-          placeholder="e.g. John Doe"
-          value={formData.fullName}
-          onChange={handleChange}
-          required
-          error={errors.fullName}
-          variant={fieldVariant}
+        {/* Honeypot — hidden from real users, catches bots */}
+        <input
+          type="text"
+          name="botcheck"
+          value={honeypot}
+          onChange={(e) => setHoneypot(e.target.value)}
+          tabIndex={-1}
+          autoComplete="new-password"
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            left: "-9999px",
+            width: 0,
+            height: 0,
+            opacity: 0,
+            overflow: "hidden",
+            pointerEvents: "none",
+          }}
         />
 
-        <InputField
-          label="EMAIL ADDRESS"
-          name="email"
-          type="email"
-          placeholder="e.g. john@company.com"
-          value={formData.email}
-          onChange={handleChange}
-          required
-          error={errors.email}
-          variant={fieldVariant}
-        />
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-[24px] w-full">
+          <div className="min-h-[90px]">
+            <InputField
+              label="FULL NAME"
+              name="fullName"
+              placeholder="e.g. John Doe"
+              value={formData.fullName}
+              onChange={handleChange}
+              required
+              error={errors.fullName}
+              variant={fieldVariant}
+            />
+          </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-[24px] w-full">
-        <InputField
-          label="PHONE NUMBER"
-          name="phone"
-          type="tel"
-          placeholder="e.g. +1 (555) 000-0000"
-          value={formData.phone}
-          onChange={handleChange}
-          error={errors.phone}
-          variant={fieldVariant}
-        />
+          <div className="min-h-[90px]">
+            <InputField
+              label="EMAIL ADDRESS"
+              name="email"
+              type="email"
+              placeholder="e.g. john@company.com"
+              value={formData.email}
+              onChange={handleChange}
+              required
+              error={errors.email}
+              variant={fieldVariant}
+            />
+          </div>
+        </div>
 
-        <InputField
-          label="SYSTEM / INQUIRY TYPE"
-          name="inquiryType"
-          placeholder="e.g. Commercial Fire Alarm"
-          value={formData.inquiryType}
-          onChange={handleChange}
-          error={errors.inquiryType}
-          variant={fieldVariant}
-        />
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-[24px] w-full">
+          <div className="min-h-[90px]">
+            <InputField
+              label="PHONE NUMBER"
+              name="phone"
+              type="tel"
+              placeholder="e.g. +1 (555) 000-0000"
+              value={formData.phone}
+              onChange={handleChange}
+              error={errors.phone}
+              variant={fieldVariant}
+            />
+          </div>
 
-      <div className="w-full">
-        <TextareaField
-          label="DETAILED MESSAGE"
-          name="message"
-          rows={4}
-          placeholder="Tell us about your facility or technical support requirements..."
-          value={formData.message}
-          onChange={handleChange}
-          required
-          error={errors.message}
-          variant={fieldVariant}
-        />
-      </div>
+          <div className="min-h-[90px]">
+            <InputField
+              label="SYSTEM / INQUIRY TYPE"
+              name="inquiryType"
+              placeholder="e.g. Commercial Fire Alarm"
+              value={formData.inquiryType}
+              onChange={handleChange}
+              error={errors.inquiryType}
+              variant={fieldVariant}
+            />
+          </div>
+        </div>
 
-      <div className="w-full pt-1">
-        {variant === "modal" ? (
-          <button
-            type="submit"
-            disabled={isSubmitting}
-            className="w-full h-[56px] rounded-[6px] bg-[#BD0000] hover:bg-[#A30000] text-[#FFFFFF] font-helvetica font-medium text-[16px] leading-[24px] tracking-[-0.01em] transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.99] flex items-center justify-center gap-2.5 cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
-          >
-            {isSubmitted ? (
-              <span>Message Sent Successfully!</span>
-            ) : isSubmitting ? (
-              <span>Sending...</span>
-            ) : (
-              <span>Send Message</span>
-            )}
-          </button>
-        ) : (
-          <SubmitButton isSubmitted={isSubmitted} disabled={isSubmitting}>
-            {isSubmitting ? "Sending..." : "Send Message"}
-          </SubmitButton>
-        )}
-      </div>
+        <div className="w-full min-h-[172px]">
+          <TextareaField
+            label="DETAILED MESSAGE"
+            name="message"
+            rows={4}
+            placeholder="Tell us about your facility or technical support requirements..."
+            value={formData.message}
+            onChange={handleChange}
+            required
+            error={errors.message}
+            variant={fieldVariant}
+          />
+        </div>
+
+        <div className="w-full pt-1">
+          {variant === "modal" ? (
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="w-full h-[56px] rounded-[6px] bg-[#BD0000] hover:bg-[#A30000] text-[#FFFFFF] font-helvetica font-medium text-[16px] leading-[24px] tracking-[-0.01em] transition-all duration-300 shadow-md hover:shadow-lg active:scale-[0.99] flex items-center justify-center gap-2.5 cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
+            >
+              {isSubmitted ? (
+                <span>Message Sent Successfully!</span>
+              ) : isSubmitting ? (
+                <span>Sending...</span>
+              ) : (
+                <span>Send Message</span>
+              )}
+            </button>
+          ) : (
+            <SubmitButton isSubmitted={isSubmitted} disabled={isSubmitting}>
+              {isSubmitting ? "Sending..." : "Send Message"}
+            </SubmitButton>
+          )}
+        </div>
       </form>
 
-      <ThankYouModal 
-        isOpen={isSuccessModalOpen} 
-        onClose={() => setIsSuccessModalOpen(false)} 
+      <ThankYouModal
+        isOpen={isSuccessModalOpen}
+        onClose={() => setIsSuccessModalOpen(false)}
       />
     </>
   );
 }
-

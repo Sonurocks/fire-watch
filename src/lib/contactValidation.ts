@@ -1,10 +1,6 @@
-const MAX_FULL_NAME = 200;
-const MAX_EMAIL = 254;
-const MAX_PHONE = 30;
-const MAX_INQUIRY_TYPE = 200;
-const MAX_MESSAGE = 5000;
-
-const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const NAME_REGEX = /^[\p{L}\p{M}]+(?:[ '-][\p{L}\p{M}]+)*$/u;
+const EMAIL_REGEX = /^[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:\.[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?)*$/;
+const PHONE_REGEX = /^\+?[1-9]\d{6,14}$/;
 
 export interface ContactFormData {
   fullName: string;
@@ -18,6 +14,46 @@ export interface ValidationResult {
   valid: boolean;
   errors: Record<string, string>;
   data: ContactFormData;
+}
+
+export function validateField(name: string, value: string): string {
+  if (name === "fullName") {
+    if (!value) return "Name is required.";
+    if (value.length < 2) return "Name should be at least 2 characters.";
+    if (value.length > 100) return "Name should not exceed 100 characters.";
+    if (!NAME_REGEX.test(value)) return "Name should contain only letters";
+  }
+
+  if (name === "email") {
+    if (!value) return "Email Address is required.";
+    if (value.length > 254) return "Email Address should not exceed 254 characters.";
+    if (!EMAIL_REGEX.test(value)) return "Please enter a valid email address.";
+  }
+
+  if (name === "phone") {
+    if (value) {
+      if (!/^\+?\d+$/.test(value)) return "Phone Number should contain only numbers and an optional + at the beginning.";
+      const digitsOnly = value.replace(/\+/g, "");
+      if (digitsOnly.length < 7) return "Phone Number should contain at least 7 digits.";
+      if (digitsOnly.length > 15) return "Phone Number should not exceed 15 digits.";
+      if (!PHONE_REGEX.test(value)) return "Please enter a valid phone number.";
+    }
+  }
+
+  if (name === "inquiryType") {
+    if (value) {
+      if (value.length < 2) return "Inquiry Type should be at least 2 characters.";
+      if (value.length > 100) return "Inquiry Type should not exceed 100 characters.";
+    }
+  }
+
+  if (name === "message") {
+    if (!value) return "Message is required.";
+    if (value.length < 10) return "Message should be at least 10 characters.";
+    if (value.length > 2000) return "Message should not exceed 2000 characters.";
+  }
+
+  return "";
 }
 
 export function validateContactForm(raw: unknown): ValidationResult {
@@ -38,45 +74,39 @@ export function validateContactForm(raw: unknown): ValidationResult {
   }
 
   const body = raw as Record<string, unknown>;
+  const fields = ["fullName", "email", "phone", "inquiryType", "message"];
+  const data: Partial<ContactFormData> = {};
 
-  const fullName =
-    typeof body.fullName === "string" ? body.fullName.trim() : "";
-  if (!fullName) {
-    errors.fullName = "Full Name is required";
-  } else if (fullName.length > MAX_FULL_NAME) {
-    errors.fullName = `Full Name must be ${MAX_FULL_NAME} characters or fewer`;
-  }
+  for (const field of fields) {
+    const rawVal = body[field];
+    
+    if (rawVal !== undefined && typeof rawVal !== "string") {
+      errors[field] = "Invalid format.";
+      data[field as keyof ContactFormData] = "";
+      continue;
+    }
 
-  const email = typeof body.email === "string" ? body.email.trim() : "";
-  if (!email) {
-    errors.email = "Email Address is required";
-  } else if (email.length > MAX_EMAIL) {
-    errors.email = `Email must be ${MAX_EMAIL} characters or fewer`;
-  } else if (!EMAIL_REGEX.test(email)) {
-    errors.email = "Please enter a valid email address";
-  }
+    const stringVal = typeof rawVal === "string" ? rawVal : "";
+    let cleanedVal = stringVal;
+    
+    if (field === "fullName" || field === "inquiryType") {
+      cleanedVal = stringVal.replace(/\s+/g, " ").trim();
+    } else {
+      cleanedVal = stringVal.trim();
+    }
 
-  const phone = typeof body.phone === "string" ? body.phone.trim() : "";
-  if (phone.length > MAX_PHONE) {
-    errors.phone = `Phone number must be ${MAX_PHONE} characters or fewer`;
-  }
+    data[field as keyof ContactFormData] = cleanedVal;
 
-  const inquiryType =
-    typeof body.inquiryType === "string" ? body.inquiryType.trim() : "";
-  if (inquiryType.length > MAX_INQUIRY_TYPE) {
-    errors.inquiryType = `Inquiry type must be ${MAX_INQUIRY_TYPE} characters or fewer`;
-  }
-
-  const message = typeof body.message === "string" ? body.message.trim() : "";
-  if (!message) {
-    errors.message = "Detailed Message is required";
-  } else if (message.length > MAX_MESSAGE) {
-    errors.message = `Message must be ${MAX_MESSAGE} characters or fewer`;
+    const errorMsg = validateField(field, cleanedVal);
+    
+    if (errorMsg) {
+      errors[field] = errorMsg;
+    }
   }
 
   return {
     valid: Object.keys(errors).length === 0,
     errors,
-    data: { fullName, email, phone, inquiryType, message },
+    data: data as ContactFormData,
   };
 }
