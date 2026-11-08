@@ -17,6 +17,7 @@ type FormStatus = "idle" | "submitting" | "success" | "error";
 
 export default function ContactForm({
   variant = "modal",
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onSuccess,
 }: ContactFormProps) {
   const [formData, setFormData] = useState({
@@ -61,7 +62,8 @@ export default function ContactForm({
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
-    let { name, value } = e.target;
+    const { name } = e.target;
+    let { value } = e.target;
 
     if (name === "phone") {
       value = value.replace(/[^\d+]/g, "");

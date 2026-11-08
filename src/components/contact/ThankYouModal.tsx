@@ -1,9 +1,13 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useSyncExternalStore } from "react";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { FiX } from "react-icons/fi";
 import { createPortal } from "react-dom";
+
+const emptySubscribe = () => () => {};
+const getTrue = () => true;
+const getFalse = () => false;
 
 export interface ThankYouModalProps {
   isOpen: boolean;
@@ -14,11 +18,7 @@ export default function ThankYouModal({
   isOpen,
   onClose,
 }: ThankYouModalProps) {
-  const [mounted, setMounted] = React.useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = useSyncExternalStore(emptySubscribe, getTrue, getFalse);
 
   if (!mounted || !isOpen) return null;
 

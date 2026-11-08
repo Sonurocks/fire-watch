@@ -6,8 +6,8 @@ export const ABOUT_HERO_DATA: AboutHeroData = {
   title: "About Fire Watch",
   description:
     "Our core mission is protecting lives, structures, and critical environments with certified engineering systems and industry-leading equipment.",
-  buttonText: "Explore Our Systems",
-  buttonLink: "#systems",
+  buttonText: "Explore Our Solutions",
+  buttonLink: "/products",
 };
 
 export const OUR_STORY_DATA: OurStoryData = {

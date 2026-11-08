@@ -21,7 +21,7 @@ export const HERO_DATA: HeroData = {
   description:
     "Reliable fire detection and protection solutions designed to safeguard people, property, and critical environments.",
   buttonText: "Explore Our Solutions",
-  buttonLink: "#solutions",
+  buttonLink: "/products",
 };
 
 export const FEATURE_DATA: FeatureData = {

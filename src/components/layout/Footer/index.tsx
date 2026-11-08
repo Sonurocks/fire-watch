@@ -27,9 +27,19 @@ export default function Footer() {
                 {CONTACT_INFO.map((info) => (
                   <li key={info.id} className="flex items-start gap-3 md:gap-4">
                     <info.icon className="text-white text-lg md:text-xl flex-shrink-0 mt-1" />
-                    <span className="text-text-light/80 text-[15px] md:text-[16px] font-normal leading-[1.48] whitespace-pre-line">
-                      {info.text}
-                    </span>
+                    {info.href ? (
+                      <a
+                        href={info.href}
+                        aria-label={info.ariaLabel}
+                        className="text-text-light/80 text-[15px] md:text-[16px] font-normal leading-[1.48] whitespace-pre-line hover:text-white transition-colors"
+                      >
+                        {info.text}
+                      </a>
+                    ) : (
+                      <span className="text-text-light/80 text-[15px] md:text-[16px] font-normal leading-[1.48] whitespace-pre-line">
+                        {info.text}
+                      </span>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -104,15 +114,35 @@ export default function Footer() {
                 FOLLOW US
               </h4>
               <div className="flex items-center gap-4">
-                {SOCIAL_LINKS.map((social) => (
-                  <a
-                    key={social.id}
-                    href={social.href}
-                    className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-white flex items-center justify-center text-white hover:bg-white hover:text-primary transition-colors"
-                  >
-                    <social.icon className="text-lg sm:text-xl" />
-                  </a>
-                ))}
+                {SOCIAL_LINKS.map((social) => {
+                  const inner = <social.icon className="text-lg sm:text-xl" />;
+                  const baseClasses = "w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-white flex items-center justify-center text-white transition-colors";
+
+                  if (social.href) {
+                    return (
+                      <a
+                        key={social.id}
+                        href={social.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={social.ariaLabel}
+                        className={`${baseClasses} hover:bg-white hover:text-primary`}
+                      >
+                        {inner}
+                      </a>
+                    );
+                  }
+
+                  return (
+                    <span
+                      key={social.id}
+                      aria-hidden="true"
+                      className={baseClasses}
+                    >
+                      {inner}
+                    </span>
+                  );
+                })}
               </div>
             </div>
           </div>
